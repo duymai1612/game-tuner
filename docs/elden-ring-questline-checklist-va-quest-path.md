@@ -17,26 +17,28 @@ https://www.youtube.com/playlist?list=PLWsanzojPwHfLQi0-O2qeDMCiy8hx9TOj
 
 # PHẦN 1 - BẢNG TỔNG QUAN
 
-## ✅ Đã xong (24 questline)
+## ✅ Đã xong (27 questline)
 
 Varré · Ranni/Blaidd · Seluvis · D · Fia · Rogier · **Millicent** (còn Malenia) · Yura ·
 Nepheli/Kenneth/Gostoc · Irina/Edgar · **Gurranq** · Roderika · Diallos ·
 Blackguard Big Boggart · Dung Eater · Sellen/Jerren · Boc · **Thops** ·
 **Volcano Manor 5/5** · **Rya** · **Tanith/Rykard** · **Patches** · **Latenna** ·
 **Corhyn & Goldmask** (còn nhặt rune sau Maliketh) · Remembrance đã đổi hết ·
-Marais Executioner's Sword · Assassin's Cerulean Dagger
+Marais Executioner's Sword · Assassin's Cerulean Dagger ·
+**Alexander** (2026-08-06) · **Bernahl** (2026-08-06) · **Jar Bairn** (2026-08-06)
 
 Nhánh đã chọn: Seluvis→Gideon · Millicent→giúp cô ấy · Sellen→giúp Sellen (giết Jerren) ·
 Boc→Larval Tear · Rya→không giết, không đưa Tonic · Tanith→đã giết lấy `Consort's Set`
 
-## 🟡 Còn lại (chỉ còn 4 việc)
+## 🟡 Còn lại (chỉ còn 1 việc quest)
 
 | Việc | Chi tiết | Deadline |
 |---|---|---|
-| **Alexander** | Mt. Gelmir → gần Fire Giant → duel ở Farum Azula → `Shard of Alexander` + `Alexander's Innards` | - |
-| **Jar Bairn** | chờ `Alexander's Innards` → `Companion Jar` | - |
-| **Bernahl** | invade ở Farum Azula → `Devourer's Scepter` + `Blasphemous Claw` + Beast Champion set | sau Maliketh |
 | **Malenia** | `Unalloyed Gold Needle` (đang giữ) → `Miquella's Needle` | - |
+
+Cập nhật 2026-08-06, xác nhận qua save: **Alexander, Bernahl, Jar Bairn đều xong**.
+Bằng chứng trong túi: `Shard of Alexander` · `Companion Jar` (Innards đã tiêu) ·
+`Devourer's Scepter` + `Blasphemous Claw` + nguyên bộ Beast Champion.
 
 Nhặt nốt sau khi giết Maliketh: `Mending Rune of Perfect Order` trên xác Goldmask ở
 **Ashen Capital**. Corhyn/Goldmask đã đẩy tới bước Mountaintops rồi, chỉ chờ mốc này.
@@ -50,7 +52,9 @@ Bỏ hẳn = không mất gì, chỉ không có `Frenzied Flame Seal`. Để dà
 
 ## Đồ còn sót đáng nhặt
 
-`Ronin's Set` (giết Shabriri ở Zamor Ruins - **không cần Frenzied Flame**, xem Phần 6)
+Hết. `Ronin's Set`: user xác nhận đã lấy (2026-08-06). Lưu ý probe: không thấy trong
+**held inventory** (chỉ có Land of Reeds set x2, bộ nhìn gần giống), nhiều khả năng đang
+nằm trong **storage box** mà tool chưa đọc được mảng đó, chưa kết luận ngược được.
 
 Đính chính 2026-08-05: `Black Knife Tiche` và `Blackflame Monk Amon` **đã có, cả hai +10**.
 Alecto và Stray Mimic Tear đều `dead`. Bản trước kết luận sai vì dò ash theo tên chứa chữ
@@ -70,17 +74,15 @@ bốc cháy về mặt hình ảnh và các NPC questline rời đi, nhưng **Tw
 Master Hewg (nâng cấp), Enia (đổi remembrance) và Roderika (nâng spirit ash) đều ở lại**
 và dùng bình thường tới hết game. Xem Phần 5.
 
-## Nhóm C - làm trước khi giết Fire Giant
+## Nhóm C - làm trước khi giết Fire Giant - ✅ xong 2026-08-06
 
-- [ ] **Alexander** - Mt. Gelmir (hồ dung nham, kẹt trong hố) → **Mountaintops, gần
-      arena Fire Giant** → sau đó mới duel ở Farum Azula
-      → `Shard of Alexander` + `Alexander's Innards`
-- [ ] **Jar Bairn** - đưa `Alexander's Innards` → `Companion Jar`
+- [x] ~~**Alexander**~~ - xong: duel Farum Azula xong, `Shard of Alexander` trong túi
+- [x] ~~**Jar Bairn**~~ - xong: `Companion Jar` trong túi, `Alexander's Innards` đã tiêu
 
 ## Nhóm C2 - không deadline, nhặt đồ
 
-- [ ] `Ronin's Set` - **giết Shabriri ở Zamor Ruins**. Điều kiện duy nhất là Yura đã bị
-      Shabriri chiếm xác (đã xong: có `Eleonora's Poleblade`). Drop kèm `Iron Kasa` + 1000 rune
+- [x] ~~`Ronin's Set`~~ - user xác nhận đã lấy 2026-08-06 (không thấy trong held inventory,
+      khả năng nằm trong storage box - tool chưa đọc được storage)
 - [x] ~~`Black Knife Tiche`~~ - xong: Alecto `dead`, ash đang **+10** trong túi (id 200010)
 - [x] ~~`Glintstone Whetblade`~~ - không cần: affinity Magic + Frost đã unlock sẵn (Phần 6)
 - [x] ~~`Blackflame Monk Amon`~~ - xong: Stray Mimic Tear `dead`, ash **+10** (id 228010)
@@ -102,10 +104,8 @@ trong arena sau khi hắn chết), nên để nó làm bản lề chuyển sang 
 - [ ] **Malenia** (Elphael) - em song sinh của Miquella, người chưa từng thua ai. Dùng
       `Unalloyed Gold Needle` lên bông Scarlet Aeonia trong arena sau khi hạ cô
       → `Miquella's Needle`. Đây cũng là dấu chấm hết cho chuyện Millicent
-- [ ] **Mohg, Lord of Blood** (Mohgwyn Palace, teleport bằng `Pureblood Knight's Medal`).
-      Mohg bắt cóc Miquella, tưới máu mình để ép cậu bé thành thần của một triều đại máu.
-      Giết Mohg → mở khoá **DLC Shadow of the Erdtree** (đã cài sẵn).
-      Radahn đã chết từ lâu nên Mohg là điều kiện cuối cùng còn thiếu
+- [x] ~~**Mohg, Lord of Blood**~~ - xong 2026-08-06, xác nhận qua save: `Mohg's Great Rune`
+      trong túi. **Cửa vào DLC (cái kén trong arena) đã mở**
 - [ ] ~~Hyetta~~ - **bỏ lượt này** (xem Phần 1)
 
 > ⚠️ `Miquella's Needle` chỉ có đúng một công dụng: **gỡ Frenzied Flame ending** (dùng ở
@@ -119,14 +119,9 @@ Giant**. Ở Mountaintops hắn chỉ hiện dấu summon vàng trước arena F
 ghi rõ bước đó là **Optional** (summon Radahn cũng Optional). Có nguồn lẻ trên diễn đàn
 nói không summon thì hắn không hiện ở Farum Azula, nhưng wiki chính không xác nhận.
 
-- [ ] Summon Alexander khi đánh **Fire Giant** - không bắt buộc, nhưng miễn phí và hắn
-      là summon vàng rất khoẻ. Đổi lại không cưỡi Torrent được trong trận
-- [ ] Sau khi giết Fire Giant + đốt Erdtree + vào Farum Azula: hắn đứng trên nền đá nổi
-      **phía đông Dragon Temple**, đi từ grace **Dragon Temple Lift**. Nói chuyện → hắn
-      xin đấu tay đôi → `Shard of Alexander` + `Alexander's Innards` + gesture
-      `Triumphant Delight`
-- [ ] **Jar Bairn** (Jarburg, tây bắc Liurnia) - đưa `Alexander's Innards` → `Companion Jar`.
-      Không có deadline
+- [x] ~~Sau khi giết Fire Giant + đốt Erdtree + vào Farum Azula: duel với Alexander~~ -
+      xong 2026-08-06: `Shard of Alexander` + gesture `Triumphant Delight`
+- [x] ~~**Jar Bairn**~~ - xong 2026-08-06: đã đưa `Alexander's Innards` → `Companion Jar` trong túi
 
 Cách duy nhất làm hỏng questline này: **giết hắn sớm** (chỉ rơi `Warrior Jar Shard`).
 
@@ -142,8 +137,8 @@ Cách duy nhất làm hỏng questline này: **giết hắn sớm** (chỉ rơi 
 - [ ] **Maliketh, the Black Blade** - shadowbound beast của Marika, kẻ giam Destined Death.
       Giết hắn = **thả cái chết trở lại thế giới**, và chính cái chết đó thiêu sạch đám gai
       bịt lối vào Erdtree
-- [ ] **Bernahl** invade sau Maliketh → `Devourer's Scepter` + `Blasphemous Claw` + Beast
-      Champion set
+- [x] ~~**Bernahl** invade ở Farum Azula~~ - xong 2026-08-06: `Devourer's Scepter` +
+      `Blasphemous Claw` + Beast Champion set đều trong túi
 
 **Chương 5 - Leyndell, Ashen Capital**
 
@@ -364,15 +359,15 @@ Tanith đã giết lấy `Consort's Set` → xong hết.
 
 **Trong save:** xong.
 
-### Jar Bairn - 🟡 chờ Alexander
+### Jar Bairn - ✅ xong (2026-08-06)
 > Cái vò nhỏ ở Jarburg, học trò của Alexander. Quest này khép lại câu chuyện của cả
 > Diallos lẫn Alexander.
 
 **Phần thưởng:** `Companion Jar` talisman (cần `Alexander's Innards`)
 
-**Trong save:** chưa. Cần làm Alexander tới bước cuối trước (duel ở Farum Azula).
+**Trong save:** xong. `Companion Jar` trong túi, `Alexander's Innards` đã tiêu.
 
-### Bernahl, Knight - 🟡 còn bước Farum Azula
+### Bernahl, Knight - ✅ xong (2026-08-06)
 > Hiệp sĩ Roundtable, bán Ashes of War ở Warmaster's Shack. Anh ta phản Golden Order,
 > gia nhập Volcano Manor thành **Recusant Bernahl**. Cuối cùng chết ở Farum Azula khi
 > tìm cách trở thành Elden Lord theo con đường của riêng mình.
@@ -381,8 +376,8 @@ Tanith đã giết lấy `Consort's Set` → xong hết.
 **mất nếu giết Maliketh trước**) · `Devourer's Scepter` + `Blasphemous Claw` +
 Beast Champion set (hắn invade ở Farum Azula sau khi Rykard chết) · Bernahl's Bell Bearing
 
-**Trong save:** bước Volcano Manor đã xong. Còn lại: hắn invade ở **Crumbling Farum
-Azula** sau Maliketh → `Devourer's Scepter` + `Blasphemous Claw` + Beast Champion set.
+**Trong save:** xong. `Devourer's Scepter +0` + `Blasphemous Claw` + nguyên bộ Beast
+Champion (helm, armor altered, gauntlets, greaves) đều trong túi.
 
 ### Dung Eater - ✅ xong
 > Kẻ bị nguyền, cố tình gieo lời nguyền Omen lên linh hồn người khác để **cả thế giới
@@ -431,7 +426,7 @@ Glintblade Phalanx
 
 **Trong save:** xong, nhánh đã chọn là **giúp Sellen** (giết Jerren).
 
-### Iron Fist Alexander - 🟡 CÒN LẠI
+### Iron Fist Alexander - ✅ xong (2026-08-06)
 > Cái vò chiến binh, đi khắp Lands Between để "nung mình thành chiến binh mạnh hơn".
 > Đơn giản, chân thành, và là NPC được yêu quý nhất game. Kết thúc bằng một trận đấu
 > tay đôi anh ta tự nguyện xin.
@@ -439,9 +434,8 @@ Glintblade Phalanx
 **Phần thưởng:** gesture `Triumphant Delight` · `Shard of Alexander` talisman (+15% skill
 damage) · `Alexander's Innards` (cần cho Jar Bairn)
 
-**Trong save:** 0/2 → **việc chính còn lại**. Lộ trình: hồ dung nham Mt. Gelmir (kéo hắn
-ra khỏi hố) → **Mountaintops, gần arena Fire Giant** → duel ở Farum Azula.
-⚠️ Làm bước Mountaintops **trước khi giết Fire Giant** cho chắc.
+**Trong save:** xong. Duel ở Farum Azula đã thắng, `Shard of Alexander` trong túi,
+`Alexander's Innards` đã đưa cho Jar Bairn.
 
 ### Boc the Seamster - ✅ xong
 > Demi-human bị chính đồng loại ruồng bỏ vì "quá hiền". Cả đời chỉ muốn được ai đó
