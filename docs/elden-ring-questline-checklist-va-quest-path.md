@@ -19,7 +19,7 @@ https://www.youtube.com/playlist?list=PLWsanzojPwHfLQi0-O2qeDMCiy8hx9TOj
 
 ## ✅ Đã xong (27 questline)
 
-Varré · Ranni/Blaidd · Seluvis · D · Fia · Rogier · **Millicent** (còn Malenia) · Yura ·
+Varré · Ranni/Blaidd · Seluvis · D · Fia · Rogier · **Millicent** (2026-08-07, trọn vẹn) · Yura ·
 Nepheli/Kenneth/Gostoc · Irina/Edgar · **Gurranq** · Roderika · Diallos ·
 Blackguard Big Boggart · Dung Eater · Sellen/Jerren · Boc · **Thops** ·
 **Volcano Manor 5/5** · **Rya** · **Tanith/Rykard** · **Patches** · **Latenna** ·
@@ -30,11 +30,11 @@ Marais Executioner's Sword · Assassin's Cerulean Dagger ·
 Nhánh đã chọn: Seluvis→Gideon · Millicent→giúp cô ấy · Sellen→giúp Sellen (giết Jerren) ·
 Boc→Larval Tear · Rya→không giết, không đưa Tonic · Tanith→đã giết lấy `Consort's Set`
 
-## 🟡 Còn lại (chỉ còn 1 việc quest)
+## 🟡 Còn lại: HẾT - questline base game xong 100% (2026-08-07)
 
-| Việc | Chi tiết | Deadline |
-|---|---|---|
-| **Malenia** | `Unalloyed Gold Needle` (đang giữ) → `Miquella's Needle` | - |
+Malenia đã bị hạ và needle đã cắm, xác nhận qua save: `Miquella's Needle` +
+`Malenia's Great Rune` + nguyên bộ giáp Malenia trong túi. Việc duy nhất còn treo
+là nhặt `Mending Rune of Perfect Order` ở Ashen Capital (sau Maliketh, xem Nhóm D).
 
 Cập nhật 2026-08-06, xác nhận qua save: **Alexander, Bernahl, Jar Bairn đều xong**.
 Bằng chứng trong túi: `Shard of Alexander` · `Companion Jar` (Innards đã tiêu) ·
@@ -52,9 +52,9 @@ Bỏ hẳn = không mất gì, chỉ không có `Frenzied Flame Seal`. Để dà
 
 ## Đồ còn sót đáng nhặt
 
-Hết. `Ronin's Set`: user xác nhận đã lấy (2026-08-06). Lưu ý probe: không thấy trong
-**held inventory** (chỉ có Land of Reeds set x2, bộ nhìn gần giống), nhiều khả năng đang
-nằm trong **storage box** mà tool chưa đọc được mảng đó, chưa kết luận ngược được.
+Hết. `Ronin's Set` đã lấy, **xác nhận qua save 2026-08-07**: `Iron Kasa` + `Ronin's Armor`
++ `Ronin's Gauntlets` + `Ronin's Greaves` nằm trong gaitem map với cờ `held: False`, tức
+đang cất trong **rương**. Bản kiểm trước không thấy vì `list-items` chỉ đọc túi đồ.
 
 Đính chính 2026-08-05: `Black Knife Tiche` và `Blackflame Monk Amon` **đã có, cả hai +10**.
 Alecto và Stray Mimic Tear đều `dead`. Bản trước kết luận sai vì dò ash theo tên chứa chữ
@@ -101,9 +101,9 @@ cũng chạy. Lý do chọn thứ tự này: Malenia là đỉnh thử thách c�
 của Mohg chính là **cánh cửa vào DLC** (một cánh tay khô thò ra từ cái kén trắng ngay
 trong arena sau khi hắn chết), nên để nó làm bản lề chuyển sang Land of Shadow.
 
-- [ ] **Malenia** (Elphael) - em song sinh của Miquella, người chưa từng thua ai. Dùng
-      `Unalloyed Gold Needle` lên bông Scarlet Aeonia trong arena sau khi hạ cô
-      → `Miquella's Needle`. Đây cũng là dấu chấm hết cho chuyện Millicent
+- [x] ~~**Malenia** (Elphael)~~ - xong 2026-08-07: hạ Malenia + cắm needle,
+      `Miquella's Needle` + `Malenia's Great Rune` + bộ giáp Malenia trong túi.
+      Chuyện Millicent khép lại trọn vẹn
 - [x] ~~**Mohg, Lord of Blood**~~ - xong 2026-08-06, xác nhận qua save: `Mohg's Great Rune`
       trong túi. **Cửa vào DLC (cái kén trong arena) đã mở**
 - [ ] ~~Hyetta~~ - **bỏ lượt này** (xem Phần 1)
@@ -239,7 +239,8 @@ Anh đã đưa thuốc cho **Gideon** - nhánh giữ được cả quest Nepheli
 `Unalloyed Gold Needle` → **`Miquella's Needle`** + Somber Ancient Dragon Smithing Stone ·
 `Gowry's Bell Bearing` + `Flock's Canvas Talisman` (giết Gowry sau khi xong) · War Surgeon set
 
-**Trong save:** xong, đã chọn nhánh giúp Millicent. **Còn 1 bước: giết Malenia.**
+**Trong save:** xong trọn vẹn 2026-08-07. Malenia đã bị hạ, needle đã cắm:
+`Miquella's Needle` + `Malenia's Great Rune` + bộ giáp Malenia đều trong túi.
 
 ### Bloody Finger Hunter Yura
 > Samurai từ Land of Reeds, săn Bloody Fingers của giáo phái Mohg. Cuối cùng bị
