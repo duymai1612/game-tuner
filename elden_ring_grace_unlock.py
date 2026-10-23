@@ -151,9 +151,14 @@ def find_base(slot, bst, graces):
     The must-be-dark half is used only as a fallback tie-break, because it stops
     being true the moment we light the Haligtree; relying on it after an unlock
     picked a plausible-looking wrong offset in testing (0x13419, which reported
-    Roundtable Hold as unlit)."""
+    Roundtable Hold as unlit).
+
+    LeyndellRoyalCapital is deliberately NOT in must_on: killing Maliketh turns the
+    capital to ash and clears all nine of its grace flags, so a save past that point
+    fails an oracle that includes them and the script refuses every offset. The
+    remaining 14 graces are still unique on both a pre- and post-Maliketh save."""
     must_on = {"RoundtableHold", "StormveilCastle", "AcademyOfRayaLucaria",
-               "StrandedGraveyard", "LeyndellRoyalCapital"}
+               "StrandedGraveyard"}
     must_off = {"ConsecratedSnowfield", "CrumblingFarumAzula",
                 "ElphaelBraceOfTheHaligtree", "MiquellasHaligtree",
                 "MohgwynPalace", "LeyndellAshenCapital"}
@@ -193,9 +198,10 @@ def anchor_fits(slot, anchor):
 
 def check_base(slot, bst, graces, base):
     """Sanity-check an offset supplied with --base: the must-be-lit half of the
-    oracle still has to hold, since unlocking never clears a bit."""
+    oracle still has to hold, since unlocking never clears a bit. Same set as
+    find_base, and for the same reason it leaves LeyndellRoyalCapital out."""
     must_on = {"RoundtableHold", "StormveilCastle", "AcademyOfRayaLucaria",
-               "StrandedGraveyard", "LeyndellRoyalCapital"}
+               "StrandedGraveyard"}
     on = [a for a in (flag_addr(bst, f) for f, r, _ in graces if r in must_on) if a]
     if not anchor_fits(slot, base - ANCHOR_TO_FLAGS):
         raise SystemExit(
