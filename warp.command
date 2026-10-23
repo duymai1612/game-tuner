@@ -15,6 +15,7 @@
 
 WINE="/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/bin/wine"
 BOTTLE="Steam"
+GAME_DIR="$HOME/Library/Application Support/CrossOver/Bottles/$BOTTLE/drive_c/Program Files (x86)/Steam/steamapps/common/ELDEN RING/Game"
 EXE='C:\Program Files (x86)\Steam\steamapps\common\ELDEN RING\Game\Warp'
 
 # Mo lai game ngay sau khi vua thoat thi Arxan (lop chong can thiep cua game)
@@ -24,6 +25,24 @@ if pgrep -f "ELDEN RING.*(Warp|eldenring\.exe)" >/dev/null 2>&1; then
   echo "Game dang chay roi, thoat truoc da."
   exit 1
 fi
+
+# Steam patch exe bang cach ghi file moi chu khong sua tai cho, nen hardlink Warp dut sau
+# moi lan update va tro thanh ban copy mo coi cua exe CU. Game van chay binh thuong nen
+# loi nay im lang: chay binary truoc patch tren data da patch, thieu balance change va
+# khong thay noi dung DLC moi. Kiem inode moi lan chay, lech thi noi lai.
+if [ ! -f "$GAME_DIR/eldenring.exe" ]; then
+  echo "Khong thay eldenring.exe trong $GAME_DIR"
+  exit 1
+fi
+if [ ! -f "$GAME_DIR/Warp" ] ||
+   [ "$(stat -f %i "$GAME_DIR/eldenring.exe")" != "$(stat -f %i "$GAME_DIR/Warp")" ]; then
+  echo "Warp lech voi eldenring.exe (Steam vua patch?), dang noi lai hardlink..."
+  ln -f "$GAME_DIR/eldenring.exe" "$GAME_DIR/Warp" || {
+    echo "Noi hardlink that bai, dung lai de khoi chay nham exe cu."
+    exit 1
+  }
+fi
+
 i=0
 while pgrep -f "me3-launcher\.exe|me3\.exe" >/dev/null 2>&1 && [ $i -lt 20 ]; do
   echo "Doi phien me3 truoc ket thuc..."
