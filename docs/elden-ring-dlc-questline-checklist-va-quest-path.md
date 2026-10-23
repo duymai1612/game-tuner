@@ -16,8 +16,8 @@ Bản base game: [Checklist questline base game](./elden-ring-questline-checklis
 | Scadutree Blessing | **đã nâng** | 50 Scadutree Fragment + 25 Revered Spirit Ash đã tiêu hết khỏi túi |
 | Dancer of Ranah | **đã hạ** | `Dancer's Hood/Dress/Bracer/Trousers` + `Dancing Blade of Ranah` nằm trong túi |
 | **Bayle the Dread** | **đã hạ** | đang giữ `[Incantation] Bayle's Tyranny`, chỉ đổi được bằng `Heart of Bayle` |
-| **Priestess (Dragon Communion)** | **đã xong, nhánh standard** | có cả `Priestess Heart` lẫn `Flowerstone Gavel`, tức đã KHÔNG đưa concoction |
-| **Queelign** | **nhiều khả năng đã chốt** | có `Queelign's Greatsword` trong túi mà không giữ viên iris nào → viên Occultation đã tiêu. Chưa xác nhận được bằng event flag |
+| **Priestess (Dragon Communion)** | **đã xong, đủ cả 5 phần thưởng** (soát 13/08) | nhánh standard cho `Priestess Heart` + `Flowerstone Gavel`; nhánh concoction (`Dragonbolt of Florissax` + ash `Ancient Dragon Florissax`) đã bơm bù 09/08; `Ancient Dragon's Blessing` có sẵn |
+| **Queelign** | **đã xong trọn vẹn, nhánh Occultation** (soát lại 13/08) | giữ đủ **cả 4 mốc thưởng**: `Crusade Insignia` (invade lần 1), `Ash of War: Flame Skewer` + `Prayer Room Key` (invade lần 2), `Queelign's Greatsword` (Prayer Room). Vẫn còn **1 `Iris of Grace` chưa dùng** - câu "không giữ viên iris nào" ở bản trước là sai |
 | **Thiollier bước 1** | **đã xong** | đang giữ `Thiollier's Concoction` |
 | Messmer | **ít nhất đã chạm** | `Ember of Messmer` x5 trong túi |
 | Freyja | **còn sống, đã gặp** | trang bị của cô có trong save nhưng là bản NPC không gắn inventory (dấu vết của việc triệu hồi cô), không phải đồ nhặt được |
@@ -61,7 +61,7 @@ Mọi questline chưa xong tới lúc đó thì hỏng vĩnh viễn.
 | **Hornsent Grandam** | Belurat storeroom | **trước Mốc 1** | ⬜ chưa |
 | **Forager Brood cookbook** (nhánh của Moore) | rải khắp bản đồ | Mốc 2 | ⬜ chưa |
 | **St. Trina** (nhánh của Thiollier) | Garden of Deep Purple | Mốc 2 | ⬜ chưa |
-| **Fire Knight Queelign** | Church of the Crusade | Mốc 2 | ⬜ chưa |
+| **Fire Knight Queelign** | Church of the Crusade | Mốc 2 | ✅ xong (nhánh Occultation, soát 13/08) |
 | **Ansbach ↔ Leda chọn phe** | Storehouse | Mốc 2 | ⬜ chưa |
 
 ---
@@ -90,7 +90,9 @@ Mọi questline chưa xong tới lúc đó thì hỏng vĩnh viễn.
 
 - [ ] **Highroad Cross** - **Leda**, nói chuyện cạn
 - [ ] **Moorth Ruins** - **Dryleaf Dane**, đấu tay đôi → mở khoá **Dryleaf Arts**
-- [ ] Mang `Scorpion Stew` cho **Hornsent**
+- [ ] Mang `Scorpion Stew` cho **Hornsent** ⚠️ chỉ đưa được ở **Three-Path Cross** (Gravesite Plain)
+      và chỉ **trước khi Great Rune vỡ**. Đổi lại 3 `Furnace Visage`. Không ảnh hưởng questline,
+      lỡ mất thì thôi. Vào Scadu Altus là anh ta dời sang **Highroad Cross**, không quay lại nữa
 - [ ] **Cathedral of Manus Metyr** (đi từ Bonny Village) - bắt đầu quest **Ymir**, rung chuông ở
       **Finger Ruins of Rhia** → `Crimson Seed Talisman +1`
 
@@ -108,15 +110,28 @@ Mọi questline chưa xong tới lúc đó thì hỏng vĩnh viễn.
       greatsword ở **Church District / Specimen Storehouse**. Con dễ nhất đứng quay lưng ngay
       trước thang máy lên grace **Storehouse, First Floor**. Không thuộc questline nào nên
       không video hướng dẫn nào nhắc, phải tự nhớ
-- [ ] Nói chuyện lại lượt hai với **Freyja**, **Ansbach**, **Moore**, **Hornsent**
+- [ ] Nói chuyện lại lượt hai với **Freyja**, **Ansbach**, **Moore**, **Hornsent**.
+      Hornsent lúc này đứng ở **Highroad Cross** (Scadu Altus), cạnh Leda, không còn ở Three-Path
+      Cross. Nói cạn rồi ngồi grace thì anh ta rời đi Shadow Keep - đó là bước mở dấu triệu hồi
+      của anh ta trong phòng Messmer
 - [ ] **Golden Hippopotamus** - triệu hồi **Freyja**
 - [ ] **Storehouse, Fourth Floor** - nhặt `Secret Rite Scroll`
 - [ ] **Storehouse, First Floor** - **Ansbach**, hỏi về Freyja **trước**, rồi mới đưa scroll
       → nhận `Letter to Freyja`
 - [ ] **Storehouse, Seventh Floor** - đưa thư cho **Freyja** → `Golden Lion Shield`, báo lại Ansbach
-- [ ] **Leda hỏi anh nghi ai.** Chọn **không nói gì** hoặc chỉ tay, rồi ở mỗi cuộc invade của cô
-      **chọn dấu vàng** để cứu người bị săn
-- [ ] **Moore** - chọn nhánh cho ông, sau đó phải đánh ông → `Verdigris Set` + bell bearing
+- [ ] **Leda hỏi anh nghi ai.** Chọn **không nói gì** (hoặc chỉ Hornsent, ra kết quả như nhau),
+      cô sẽ săn Hornsent. Hai cuộc invade của cô xử lý KHÁC nhau:
+      - **Invade Hornsent** (Shadow Keep, chỗ thuyền cháy): **bỏ trống cả hai dấu**. Dấu vàng cắt
+        cụt questline Leda và mất `Ansbach's Longbow`; dấu đỏ giết Hornsent sớm. Bỏ trống giữ được
+        cả hai mạch, chỉ mất `Lacerating Crossed-Tree` + `Ash of War: Swift Slash`, cả hai bơm được
+      - **Invade Ansbach** (Storehouse, First Floor): **chọn dấu vàng** cứu Ansbach → `Ansbach's
+        Longbow` + giữ ông sống để sau trận Radahn nhặt `Obsidian Lamina` + `Furious Blade of Ansbach`
+- [ ] **Moore** - chọn **"Remain sad forever"**, ông tự đi ra vách đá phía bắc Church of the Crusade
+      và nằm đó: **KHÔNG phải đánh**, chỉ việc nhặt `Verdigris Greatshield` + `Verdigris Set` +
+      `Moore's Bell-Bearing`. (Bản trước ghi "phải đánh ông" là sai. Nhánh "Put it behind you" cho
+      đồ y hệt nhưng đẩy ông vào trận gank 5 NPC ở Enir-Ilim.)
+      ⚠️ **Tuyệt đối không giết forager brood** - giết là mất luôn `Moore's Bell-Bearing`.
+      Lấy `Forager Brood Cookbook [7]` từ ông TRƯỚC khi trả lời câu hỏi số phận.
 - [ ] **Messmer the Impaler** - ⚠️ **triệu hồi Hornsent**, không thì anh trở mặt.
       Lấy `Messmer's Kindling`
 - [ ] Quay lại **Grandam** → `Gourmet Scorpion Stew`
@@ -127,7 +142,12 @@ Mọi questline chưa xong tới lúc đó thì hỏng vĩnh viễn.
       **Bayle the Dread** → đồ của Igon
 - [ ] **Abyssal Woods** - **Midra, Lord of Frenzied Flame** (remembrance)
 - [ ] **Finger Ruins of Dheo** rồi **of Miyr** - hoàn tất quest **Ymir**: hạ **Anna**, **Metyr**,
-      rồi **Jolán** và **Ymir** → `Maternal Staff`, `High Priest Set`
+      rồi **Jolán** và **Ymir** → `Maternal Staff`, `High Priest Set`, `Ymir's Bell-Bearing`
+- [ ] 🔴 **MUA HẾT 9 PHÉP CỦA YMIR TRƯỚC KHI KÍCH HOẠT NGAI LẦN CUỐI** - cửa hàng chết theo ông,
+      đây là món missable lớn nhất trong toàn bộ danh sách. Tổng **80.500 rune**:
+      `Glintstone Pebble` · `Great Glintstone Shard` · `Glintblade Phalanx` · `Carian Phalanx` ·
+      `Carian Retaliation` · `Miriam's Vanishing` · `Glintstone Nail` · `Glintstone Nails` ·
+      `Fleeting Microcosm`
 - [ ] **Scaduview** - **Scadutree Avatar** (remembrance)
 - [ ] **Commander Gaius** (remembrance)
 - [ ] Nhánh 6 cuốn **Forager Brood Cookbook** nếu muốn cuốn thứ 7 của Moore
@@ -139,8 +159,9 @@ Mọi questline chưa xong tới lúc đó thì hỏng vĩnh viễn.
 
 ### Chương 8 - Enir-Ilim
 
-- [ ] **Cleansing Chamber Anteroom** - trận Leda. Triệu hồi **Ansbach**, **Hornsent**, **Thiollier**
-      nếu anh đã cứu họ. Phải đánh **Freyja** và **Dane**
+- [ ] **Cleansing Chamber Anteroom** - trận Leda. Đồng minh triệu hồi được chỉ có **Ansbach** và
+      **Thiollier** (`Sanguine Noble Nataan` thế chỗ nếu Ansbach chết). **Hornsent không bao giờ là
+      đồng minh ở đây** - anh ta là địch, và chỉ xuất hiện nếu còn sống. Phải đánh **Freyja** và **Dane**
 - [ ] **Promised Consort Radahn** - triệu hồi Ansbach và Thiollier lần cuối
 - [ ] Nhặt đồ Ansbach ở Gate of Divinity
 
@@ -172,8 +193,15 @@ remembrance đổi được ở chỗ Enia.
 1. **Tới Shadow Keep quá sớm.** Hỏng bước đầu của Thiollier và mạch của Hornsent Grandam.
    Đây là cái bẫy nguy hiểm nhất với anh, vì anh đã mở sẵn toàn bộ grace nên warp nhầm một
    phát là dính.
-2. **Giết Messmer mà không triệu hồi Hornsent.** Anh ta trở mặt, questline mất.
-3. **Chọn dấu đỏ của Leda.** Người bị săn chết luôn, không cứu lại được.
+2. **Bước vào phòng Messmer khi chưa xong mạch Hornsent.** Chỉ cần bước qua cửa là hai dấu triệu
+   hồi ở Shadow Keep biến mất, chưa cần đánh. Và nếu giết Messmer mà không triệu hồi Hornsent thì
+   mất luôn màn anh ta invade ở Church of the Bud. Trong phòng có **hai** dấu vàng, Hornsent và
+   `Jolán, Swordhand of Night` - phải chọn đúng Hornsent.
+3. **Chọn dấu vàng giúp Hornsent ở Shadow Keep.** Đây mới là nhánh mất nhiều nhất, không phải dấu
+   đỏ. Trang `Ash of War: Swift Slash` của wiki.gg ghi nhánh này *"ends Leda's questline until
+   Enir-Ilim"* và loại trừ lẫn nhau với `Ansbach's Longbow`, `Lacerating Crossed-Tree`,
+   `Retaliatory Crossed-Tree`. Dấu đỏ thì chỉ giết Hornsent sớm. **Bỏ trống cả hai là tốt nhất**:
+   giữ được cả mạch Hornsent lẫn màn Leda đấu Ansbach, và ba món mất đều bơm được bằng save editor.
 4. **Đốt Sealing Tree khi còn quest dở.** Cả đoàn dời đi, mọi thứ chưa xong thành hỏng.
 5. **Đưa scroll cho Ansbach trước khi hỏi ông về Freyja.** Mất mạch thư từ giữa hai người.
 
@@ -186,6 +214,38 @@ remembrance đổi được ở chỗ Enia.
 `Priestess Heart`**. Wiki `Flowerstone Gavel` ghi thẳng: *"If the Dragon Communion Priestess
 is given Thiollier's Concoction, she will not drop this item."* Build #8 (Dragon Cult
 Lightning) cần **cả hai món của nhánh không-đưa**, nên nhánh đó là lựa chọn đúng ở NG0.
+
+**Chuỗi thưởng đầy đủ của Queelign** (soát 13/08 - anh đã nhận trọn, không thiếu món nào):
+
+| Mốc | Phần thưởng | Trạng thái |
+|---|---|---|
+| Đánh lui invade lần 1 (Belurat *hoặc* Church of the Crusade) | `Crusade Insignia` - talisman +15% sát thương 20s sau mỗi lần hạ địch | ✅ |
+| Đánh lui invade lần 2 (địa điểm còn lại) | `Ash of War: Flame Skewer` + `Prayer Room Key` | ✅ |
+| Prayer Room, Church District - đưa `Iris of Occultation` | `Queelign's Greatsword` | ✅ |
+| *(nhánh thay thế)* đưa `Iris of Grace` | spirit ash `Fire Knight Queelign` | ✅ **đã bơm 13/08** (id 2218000, +0) - trong game chỉ NG+ mới có cả hai |
+
+Ash đang ở **+0**; kho có 90+ mỗi bậc `Ghost Glovewort` và 93 `Great Ghost Glovewort`, đủ nâng
+thẳng +10 ở Roundtable Hold. 🔴 Món vừa bơm **chưa kiểm chứng trong game** - mở game xem nó có
+trong danh sách chuông triệu hồi không.
+
+⚠️ `Queelign's Greatsword` **không nằm ở mục Greatsword** trong menu - nó là **Heavy Thrusting Sword**
+(skill `Impaling Thrust`, nặng 7.5, yêu cầu 14 Str / 18 Dex / 12 Fai). Tên gọi dễ làm người chơi
+tưởng questline không trả thưởng.
+
+**Chuỗi thưởng đầy đủ của Dragon Communion Priestess** - đúng **5 món**, không hơn (3 agent tra
+độc lập wiki.gg / Fextralife / walkthrough đều ra cùng danh sách; không có talisman, prayerbook,
+bell bearing hay giáp nào gắn với NPC này):
+
+| Phần thưởng | Nhánh | Loại | Trạng thái |
+|---|---|---|---|
+| `Ancient Dragon's Blessing` | **cả hai nhánh** - chọn "Devour draconic essence" / "Ask for power" | Tool | ✅ |
+| `Priestess Heart` | không đưa concoction | Tool | ✅ |
+| `Flowerstone Gavel` | không đưa concoction | Weapon (Hammer) | ✅ |
+| `[Incantation] Dragonbolt of Florissax` | đưa concoction | Incantation | ✅ bơm 09/08 |
+| `Ancient Dragon Florissax` | đưa concoction | Spirit Ash | ✅ bơm 09/08 |
+
+⚠️ `Ancient Dragon's Blessing` **xin lại được nhiều lần**, nhưng chỉ khi **Bayle chưa bị hạ** và
+trong túi chưa có sẵn viên nào. Bayle đã hạ rồi nên nguồn này đã đóng - viên đang giữ là viên cuối.
 
 **Fire Knight Queelign và Jolán** dùng **chung** hai loại iris, không phải mỗi Queelign:
 
@@ -200,6 +260,28 @@ Scadutree Base; Occultation ở Fort of Reprimand và Church District) mà chỉ
 Nguyên tắc chọn, dựa trên năng lực save editor: **luôn lấy nhánh VŨ KHÍ**, vì vũ khí là thứ
 duy nhất tool không thêm mới được (chỉ `replace-weapon`, phải hiến tế một cây). Ash và phép
 đều là goods, `add-item` bù lại sạch. Nên đưa Occultation cho cả hai NPC, ash bơm sau.
+
+> Riêng Jolán có thêm một mặt mà nguyên tắc trên không tính tới: nhánh **Grace mở tiếp mạch
+> truyện của cô** (ash còn tiến hoá thành `Jolan and Anna`), nhánh Occultation cắt ngang.
+> Đây là đánh đổi nội dung, không phải đánh đổi đồ - cần user tự quyết, đừng auto theo nguyên tắc.
+
+### Iris có bị tiêu khi đưa cho NPC không - save trả lời được
+
+Wiki mâu thuẫn nhau: Rock Paper Shotgun và The Nerd Stash khẳng định đưa iris **không** tiêu
+viên, còn vài người chơi báo bị mất. **Save của mình nghiêng hẳn về "có tiêu":** đã đưa
+Occultation cho Queelign (bằng chứng là đang giữ `Queelign's Greatsword`) mà trong túi giờ
+**0 viên Occultation**. Nếu không tiêu thì viên đó phải còn. Không tuyệt đối - vẫn có khả năng
+viên thứ hai chưa nhặt và viên đã đưa bị mất theo cách khác - nhưng cứ lập kế hoạch theo
+hướng **mỗi viên dùng được đúng một lần**.
+
+### ⚠️ Cảnh báo cho lần đưa iris tiếp theo (Jolán)
+
+Phần thưởng **rơi thẳng vào túi** lúc kết thúc đoạn thoại/hoạt cảnh: **không có xác, không có
+vết máu, không có hệ thống gửi đồ bù**. Nếu hoạt cảnh bị ngắt giữa chừng thì mất trắng cả iris
+lẫn phần thưởng, hết lượt chơi đó. Trường hợp mất thật được ghi nhận nhiều nhất là **bị người
+khác summon hoặc invade đúng lúc đang nói chuyện**. Trước khi đưa iris cho Jolán: chơi offline,
+hoặc cất `Small Golden Effigy`, `Blue Cipher Ring`, `Taunter's Tongue`, `Furlcalling Finger Remedy`,
+và đứng yên xem hết hoạt cảnh rồi mới đi.
 
 ---
 

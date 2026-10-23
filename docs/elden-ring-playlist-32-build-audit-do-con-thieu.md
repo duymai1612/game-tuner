@@ -24,11 +24,87 @@ chưa được viết lại nên các con số tổng ở [TL;DR](#1-tldr) đang
 
 🔴 **Ba món vừa bơm CHƯA được kiểm chứng trong game.** Đây là lần đầu dùng `add-item` cho
 spirit ash và incantation. Trước khi tin là đã có, phải mở game xem ash có trong danh sách
-chuông triệu hồi và phép có memorize được không.
+chuông triệu hồi và phép có memorize được không. *(→ đã kiểm mức save-level ngày 13/08,
+xem block cập nhật bên dưới)*
 
 Còn thiếu và không đổi: `Bloodfiend's Arm` (#26), `Fire Knight's Greatsword` (#13, khác hẳn
 `Queelign's Greatsword`, xem [checklist DLC](./elden-ring-dlc-questline-checklist-va-quest-path.md)),
 `Maternal Staff` (#29, chơi nốt questline Ymir là ra).
+
+---
+
+## ✅ Cập nhật 2026-08-13 - kiểm chứng Florissax, bơm Bloodsucking Cracked Tear
+
+Nguồn: save do **game tự ghi lúc 19:28 ngày 13/08** (sau một phiên chơi thật), quét
+gaitem map + cả hai mảng inventory (common + key), slot 1.
+
+| Món | Trạng thái |
+|---|---|
+| `Dragonbolt of Florissax` (2006910) | ✅ còn nguyên trong túi (common) |
+| `Ancient Dragon Florissax` (2215000) | ✅ còn nguyên trong túi (common) |
+| `Priestess Heart` (2002020) + `Flowerstone Gavel` (11500000) | ✅ còn nguyên |
+| `Bloodsucking Cracked Tear` (2011050) | ✅ **bơm 13/08**, key array slot 120, checksum OK, selftest pass |
+| `Cerulean Hidden Tear` (11025) | ⬜ chưa có, **cố ý không bơm** - user tự đánh **Ulcerated Tree Spirit** ở Minor Erdtree, Mt. Gelmir (phía đông grace Road of Iniquity) để lấy |
+
+Cảnh báo 🔴 của block 09/08 hạ cấp một bậc: hai món bơm sống sót qua một phiên game load
+rồi tự ghi lại save, tức game đã chấp nhận chúng ở mức dữ liệu. Bước cuối còn thiếu là
+nhìn tận mắt trong menu: ash `Ancient Dragon Florissax` có trong chuông triệu hồi,
+`Dragonbolt of Florissax` memorize được, và `Bloodsucking Cracked Tear` trộn được ở
+Flask of Wondrous Physick. Sau khi check nhớ thoát game hẳn để Steam Cloud upload
+(user chơi 2 máy).
+
+---
+
+## 🔄 Audit lại trên save sống - 2026-08-13 (thay thế mọi con số ở mục 1)
+
+Chạy lại toàn bộ 32 build bằng script tra `tên → id → save`, không dùng lại số cũ.
+Mỗi lớp item đi đúng đường dẫn của nó (vũ khí quét dải affinity, AoW mask bit `0x80000000`,
+goods/talisman quét cả hai mảng), và có control 4 nhánh đều ra dương tính.
+
+| | Số build |
+|---|---|
+| **Chạy được ngay** | **3** - #2 Rivers of Blood, #3 Dual Bloodfiend's Fork, #23 Dark Moon Greatsword |
+| Chỉ thiếu đồ **bơm được** (talisman/tear/phép/AoW) | 10 - #4, #9, #15, #17, #19, #21, #24, #30, #31, #32 |
+| Kẹt vì **vũ khí** (editor không thêm mới được) | 19 - còn lại |
+
+→ Bơm hết 24 món khả thi (9 talisman + 9 goods + 6 AoW) thì lên **13/32**. Trần thật sự nằm ở
+**22 vũ khí** còn thiếu: hoặc đi lấy, hoặc `replace-weapon` hy sinh cây khác.
+
+Món chặn nhiều build nhất: `Cerulean Hidden Tear` (6) · `Two-Handed Sword Talisman` (4) ·
+`Graven-Mass Talisman` và `Ash of War: Royal Knight's Resolve` (3 mỗi món).
+
+**Dragon Heart nằm ở HAI bản ghi** - 20 ở mảng common và 25 ở mảng key (trước khi sửa là 9).
+Nhiều khả năng một lần `add-item` cũ quên cờ `--key`. Chưa đụng vào vì chưa rõ game đọc mảng nào.
+Bài học cho script quét: gom kết quả vào dict theo item id sẽ **ghi đè mất stack thứ hai** và cho
+ra tổng thiếu - phải cộng dồn theo từng bản ghi.
+
+---
+
+## 🔍 Cách tìm/kiểm chứng đồ mới trong game (túi đang có 1118 món)
+
+Hai tuỳ chọn này **mặc định TẮT**, bật một lần rồi dùng mãi - đây là cách nhanh nhất để xác
+minh mọi món vừa bơm:
+
+- **System → Display → Show Recent Items Tab** (thêm ở bản DLC 1.12): tạo một tab **đứng đầu**
+  Inventory, liệt kê **100 món nhặt gần nhất** theo thứ tự. Bơm xong mở tab này là thấy ngay.
+- **System → Display → Mark New Items**: đóng dấu chấm than lên món mới ngay trong mục của nó.
+
+Sắp xếp: đặt con trỏ **lên một món** (ô trống sẽ không hiện lệnh) rồi bấm **T** (bàn phím) hoặc
+**L3** (tay cầm). Chỉ có 2 kiểu sắp xếp dùng được ở đây: `Item Type` và `Order of Acquisition`;
+**không có sắp theo tên và không có ô tìm kiếm**. `E`/`R` đảo tăng/giảm dần.
+
+⚠️ Hai bẫy:
+- **Rương mở được ở BẤT KỲ Site of Grace** (`Sort Chest`), không riêng Roundtable Hold. Đồ trong
+  rương **vô hình** với mọi tab Inventory và cả màn hình Equipment.
+- **Đầy slot thì đồ nhặt được tự động chui vào rương**, không hiện trong túi lần nào. Đây là
+  nguyên nhân phổ biến nhất của "vũ khí DLC vừa nhặt mà không thấy đâu".
+- Lấy đồ **ra khỏi rương** sẽ đóng lại dấu thời gian "mới nhặt", nên nó nhảy lên đầu danh sách
+  `Order of Acquisition` dù đã có từ lâu.
+
+Thứ tự nhóm vũ khí trong tab **Melee Armaments** (sort `Item Type`, không có tiêu đề phân nhóm):
+Dagger → Straight Sword → Light Greatsword → **Greatsword** → Colossal Sword → Thrusting Sword →
+**Heavy Thrusting Sword** → Curved Sword → ... Nói cách khác `Queelign's Greatsword` nằm **cách
+nhóm Greatsword ba khối bên dưới**.
 
 ---
 
@@ -82,6 +158,22 @@ Vũ khí thì **23 loại còn thiếu, trong đó 11 là đồ DLC**, mà anh m
 
 > Lưu ý cho #16 và #10: hai món này **gắn với questline DLC**, mà questline hỏng thì mất luôn. Xem thứ tự an toàn ở [checklist DLC](./elden-ring-dlc-questline-checklist-va-quest-path.md).
 
+### 🔴 `Gravel Stone Seal` đã mất - bản trước ghi sai nguồn
+
+Bản trước ghi món này rơi từ "Godskin Apostle ở Divine Tower of Caelid". **Sai.** Năm nguồn độc
+lập (Fextralife, Fandom, ScreenRant, SegmentNext, HardcoreGamer) đều thống nhất: nó rơi từ một
+**Leyndell Knight cầm giáo** đứng ngoài cổng Fortified Manor, **Leyndell, Royal Capital**, cạnh
+một knight cầm cung. Đi từ grace West Capital Rampart, nhảy qua lan can phía bắc.
+
+Vấn đề: **phải lấy TRƯỚC khi đốt Erdtree.** Leyndell hoá thành Ashen Capital thì knight đó biến
+mất vĩnh viễn. Và save cho thấy anh **đã đốt rồi** - đang giữ `Dragon Greatclaw`, `Dragon Halberd`,
+`Godslayer's Greatsword`, `Coded Sword`, `Cipher Pata`, toàn đồ **Crumbling Farum Azula**, khu chỉ
+tới được sau khi đốt.
+
+→ Build #8 (Dragon Cult Lightning) **không hoàn thành được ở lượt chơi này** bằng cách chơi thường.
+Hai lối thoát: NG+, hoặc `replace-weapon` biến một cây rác `+0` thành `Gravel Stone Seal` (cây gốc
+mất luôn). Đây đúng là trường hợp mà `replace-weapon` sinh ra để giải quyết.
+
 ### Base game (12 loại)
 
 | Vũ khí | Build | Lấy ở đâu |
@@ -90,7 +182,7 @@ Vũ khí thì **23 loại còn thiếu, trong đó 11 là đồ DLC**, mà anh m
 | **Death's Poker** | #14 | Death Rite Bird ban đêm, đông grace Southern Aeonia Swamp Bank (Caelid) |
 | **Lusat's Glintstone Staff** | #12 | Sellia Hideaway, cần `Sellian Sealbreaker` |
 | **Carian Glintstone Staff** | #12 | Preceptor Miriam, Caria Manor |
-| **Gravel Stone Seal** | #8 | Godskin Apostle ở Divine Tower of Caelid |
+| **Gravel Stone Seal** | #8 | 🔴 **MẤT LƯỢT NÀY** - xem cảnh báo ngay dưới bảng |
 | **Clayman's Harpoon** | #7 | Clayman khu Raya Lucaria |
 | **Antspur Rapier** | #10 | Maleigh Marais / invade Volcano Manor |
 | **Grave Scythe** | #1 | Skeleton cầm lưỡi hái, nghĩa địa tây grace Lake-Facing Cliffs (~2%) |
@@ -131,7 +223,11 @@ Thiếu thêm cho build #9: **Ironjar Aromatic**. (**Priestess Heart** cho #8 th
 
 ### Ash of War
 
-`Royal Knight's Resolve` (3 build: #18, #19, #22) · `Ice Spear` (#7) · `Flame Skewer` (#13) · `Overhead Stance` (#25) · `Savage Lion's Claw` (#26) · `Blind Spot` (#28) · `Savage Claws` (#31)
+`Royal Knight's Resolve` (3 build: #18, #19, #22) · `Ice Spear` (#7) · `Overhead Stance` (#25) · `Savage Lion's Claw` (#26) · `Blind Spot` (#28) · `Savage Claws` (#31)
+
+> ~~`Flame Skewer` (#13)~~ **đã có** - xác nhận 13/08, nằm trong túi (gem 414000), rơi từ Queelign
+> ở Church of the Crusade. Danh sách trên đã soát lại bằng bản dump toàn bộ 57 Ash of War
+> trong save, không phải hỏi từng món.
 
 > **Spinning Strikes (#1) anh đã có** - nó đang gắn trên một vũ khí nên không hiện trong túi đồ.
 
@@ -161,7 +257,7 @@ Cột "thiếu" đếm số món, không phải mức độ khó.
 | 10 | Verdigris Greatshield tank | Verdigris Greatshield, Antspur Rapier | Dragoncrest Greatshield, Bull-Goat's |
 | 11 | Sword of Night and Flame | Sword of Night and Flame | Magic-Shrouding Tear |
 | 12 | Carian Slicer battle-mage | Lusat's + Carian Glintstone Staff | Carian Slicer, Graven-Mass |
-| 13 | Fire Knight's Greatsword | Fire Knight's Greatsword | AoW Flame Skewer, Fire Scorpion, Flame-Shrouding |
+| 13 | Fire Knight's Greatsword | Fire Knight's Greatsword | Fire Scorpion, Flame-Shrouding (Flame Skewer đã có) |
 | 14 | Death's Poker | Death's Poker | Cerulean Hidden Tear |
 | 15 | Moonveil | - | Cerulean Hidden Tear |
 | 16 | Falx | Falx | - |
@@ -203,7 +299,10 @@ Xếp theo tỉ lệ "công bỏ ra / số build mở khoá":
 **Đã kiểm chứng:**
 - Trạng thái sở hữu: quét **gaitem map** của slot 1 (không phải `list-items`), đối chiếu theo **item ID gốc** chứ không so tên. Hai chi tiết quan trọng:
   - Affinity nằm **giữa** tên: `Bloodfiend's Blood Fork` (16541100) chính là bản Blood của `Bloodfiend's Fork` (16540000), so tên thuần sẽ báo thiếu nhầm.
-  - `list-items` **chỉ đọc túi đồ**, bỏ sót đồ trong rương và Ash of War đang gắn trên vũ khí. Bản audit đầu tiên dùng nó nên báo thiếu nhầm `Ash of War: Spinning Strikes` và `Staff of the Guilty`.
+  - `list-items` **chỉ đọc túi đồ**, bỏ sót đồ trong rương và Ash of War đang gắn trên vũ khí. Bản audit đầu tiên dùng nó nên báo thiếu nhầm `Ash of War: Spinning Strikes`.
+  - ⚠️ **`Staff of the Guilty` thì bản sửa lại mới là cái sai.** Quét đúng dải id `33260000-33261299`
+    ngày 13/08: **không có trong save**. Cây dễ nhầm là `Astrologer's Staff` (33130000). Build #29
+    vì vậy thiếu **hai** staff chứ không phải một.
 - Dòng control chứng minh gaitem map đọc được rương: `Ronin's Set` (Iron Kasa + Armor + Gauntlets + Greaves) hiện đầy đủ trong gaitem map với cờ `held: False`, đúng như anh nói là đã lấy. Nhờ control này mà kết luận "không có Bloodfiend's Arm" mới đáng tin - quét cả dải 12530000-12531299 (13 biến thể affinity) không ra entry nào.
 - Vũ khí lõi của cả 32 build: lấy từ **mô tả chính video**, không phải suy đoán.
 - Mọi tên item trong tài liệu này đã đối chiếu với `elden_ring_items_full_reference.json` để chắc chắn tồn tại trong game.
@@ -211,6 +310,7 @@ Xếp theo tỉ lệ "công bỏ ra / số build mở khoá":
 **Chưa chắc, đừng tin tuyệt đối:**
 - Talisman/tear của các build mà mô tả video không liệt kê (phần lớn build từ #13 trở đi) là **meta build tra từ wiki**, không phải nội dung chính xác trong video. Muốn chuẩn 100% thì phải xem đoạn "Hướng dẫn Build" trong video.
 - Ash of War của #1, #6, #18, #19, #20, #22 là **suy đoán từ cách mô tả lối chơi**, chưa xác nhận.
-- `Terra Magica` (#23) không tìm thấy trong file item reference của repo. Có thể file thiếu, có thể tên khác - cần kiểm lại trước khi đi tìm.
+- ~~`Terra Magica` (#23) không tìm thấy trong file item reference.~~ **Đã giải quyết 13/08: tên thật là
+  `Terra Magicus` (goods id 4130), và anh đã có sẵn.** Sai chính tả trong bảng là lý do tra không ra.
 - Playlist có **5 video bị ẩn/không khả dụng** (YouTube báo), nên có thể playlist gốc nhiều hơn 32 build.
 - Quét gaitem map bỏ qua entry mang tiền tố `[NPC]` (đồ của NPC triệu hồi, người chơi không nhặt được). Còn **4414 entry không tra được tên** trong bảng item của repo - phần lớn là entry rỗng, nhưng nếu một món nào đó nằm trong nhóm này thì tài liệu sẽ báo thiếu nhầm. Riêng các món trong danh sách trên đều dò theo dải ID nên không dính lỗi này.
