@@ -546,9 +546,16 @@ def running_game_processes():
     Returns an empty list when the process list cannot be read, so a platform
     this does not understand degrades to the old behaviour instead of blocking.
     """
-    cmd = ["tasklist", "/fo", "csv", "/nh"] if os.name == "nt" else ["ps", "-Ao", "args="]
+    if os.name == "nt":
+        cmd = ["tasklist", "/fo", "csv", "/nh"]
+    elif "microsoft" in os.uname().release.lower():
+        # WSL: the game is a Windows process, invisible to ps but not to tasklist.exe.
+        cmd = ["tasklist.exe", "/fo", "csv", "/nh"]
+    else:
+        cmd = ["ps", "-Ao", "args="]
     try:
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=10).stdout
+        out = subprocess.run(cmd, capture_output=True, text=True, errors="replace",
+                             timeout=10).stdout
     except (OSError, subprocess.SubprocessError):
         return []
     return [line.strip()[:110] for line in out.splitlines()
