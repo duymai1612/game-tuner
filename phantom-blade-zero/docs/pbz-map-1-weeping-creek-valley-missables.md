@@ -1,75 +1,154 @@
-# Map 1 Weeping Creek Valley: điểm ko quay lại, đồ và nhiệm vụ dễ lỡ
+# Map 1 Thung Lũng Than Khóc: điểm ko quay lại, đồ và nhiệm vụ dễ lỡ
 
-Map 1 là **Weeping Creek Valley** (悲泣溪谷), map đầu tiên, tên nội bộ `XiGu`. Doc này gom mọi thứ ở map 1 mà làm trễ là mất: nhiệm vụ fail, đồ ko lấy lại được, hoặc thiếu điều kiện cho true ending.
+Map 1 là **Thung Lũng Than Khóc** (*Weeping Creek Valley*). Doc này gom mọi thứ ở map 1 mà làm trễ là mất: nhiệm vụ thất bại, đồ ko lấy lại được, hoặc thiếu điều kiện cho true ending.
 
-Tên nhiệm vụ, các bước và tên item lấy từ file text của game (build 26367565). Deadline lấy từ guide cộng đồng. Các guide hay lệch nhau về deadline, nên với mỗi mục em ghi **mốc sớm nhất** mà có guide nhắc tới. Làm trước mốc đó thì chắc chắn an toàn.
-
-Cột "Save của anh" là trạng thái đọc từ save ngày 2026-11-10: anh đang ở chương **Steel and Steam** (钢铁巨塔), chưa đánh The Hunt.
+- **Tên gọi:** tên nhiệm vụ, NPC, boss, Chuông và item lấy từ bản tiếng Việt chính thức của game (build 26367565), nên khớp với chữ anh thấy trong game. Tên tiếng Anh để trong ngoặc, dùng khi cần tra guide trên mạng.
+- **Deadline:** lấy từ guide cộng đồng. Các guide hay lệch nhau, nên mỗi mục em ghi **mốc sớm nhất** có guide nhắc tới. Làm trước mốc đó là chắc chắn an toàn.
+- **Cột "Save của anh":** trạng thái đọc từ save ngày 2026-11-10. Lúc đó anh đang ở chương **Tháp Thép Khổng Lồ** và chưa đánh Truy Mệnh.
 
 ## Luật ngắn gọn
 
-1. **Làm xong hết danh sách bên dưới trước khi rời Weeping Creek Valley để sang Crimson Forest.** Mốc sớm nhất mà guide nhắc tới cho nhiệm vụ của Yu'er là lúc cô ấy rời Outpost đi Thieves' Camp, nên đừng đợi tới boss.
-2. **Điểm ko quay lại đầu tiên của cả game là trận Bai Chilian**, boss cuối Crimson Forest (chương *Snake's Reflection*). Đánh xong, NPC ở Outpost và Thieves' Camp biến thành Maskwalker. Mọi nhiệm vụ còn dở của Outpost fail luôn.
-3. Trước mỗi trận boss lớn, mở quest log xem còn nhiệm vụ nào đang dở ở map hiện tại ko. Nhiệm vụ đã fail thì quest log hiện dấu đỏ.
+1. **Làm xong hết danh sách dưới đây rồi mới rời Thung Lũng Than Khóc sang Rừng Huyết Sắc.** Nhiệm vụ của Ngọc Nhi có mốc fail sớm nhất là lúc cô rời Dịch Trạm đi Doanh Trại Phi Tặc, nên đừng đợi tới boss mới làm.
+2. **Điểm ko quay lại đầu tiên của cả game là trận Bạch Xích Luyện** (*Bai Chilian*), boss cuối Rừng Huyết Sắc, ở chương *Máu Trong Rừng, Rắn Trong Gương*. Đánh xong thì NPC ở Dịch Trạm và Doanh Trại Phi Tặc biến thành Quái Diện, và mọi nhiệm vụ còn dở ở đó thất bại luôn.
+3. Trước mỗi trận boss lớn, mở bảng nhiệm vụ xem ở map hiện tại còn nhiệm vụ nào dở ko. Nhiệm vụ đã thất bại thì có chữ **(Thất bại)** và dấu đỏ.
 
 ## Checklist nhiệm vụ map 1
 
-| # | Nhiệm vụ (tên trong game) | Làm gì | Phần thưởng | Mất khi nào (mốc sớm nhất) | Save của anh |
-|---|---|---|---|---|---|
-| 1 | **Apprentice Healer** (见习医师) | Nhận từ Yu'er ở Outpost sau khi giết Peng Meng. Tìm 3 thảo dược: **Blood-Stopper Vine** (gần Bell *Axemaster's Holding Cell*), **Congealeaf** (sau cánh cửa mở bằng *Rusted Loong Key*), **Blemish Goldweed** (gần *Weeping Creek Valley Lóng Pillar*). Đem về cho Yu'er. | Medicine Case (phụ kiện); một phần của achievement *The Healer's Legacy* | Khi Yu'er rời Outpost đi Thieves' Camp; guide khác ghi là khi giết Jing Ye ở Crimson Forest | **Đang làm, có 1/3** (đã có Blood-Stopper Vine). Còn thiếu Congealeaf và Blemish Goldweed. |
-| 2 | **Flesh Lily** (血肉花) | Hỏi Yu'er cách cứu cha cô. Hái **Flesh Lily** trong đấu trường của boss *Hua, Deathly Betrothed* (đi qua Bell ở tầng 1 Sha-Chi Tower), đưa cho Yu'er ở Outpost. Nhiệm vụ kéo dài sang Pangzhen: tới Pangzhen thì quay lại đón Yu'er về, rồi cứu cha cô bằng hoa. | Blessed Jade Pendant (phụ kiện); một phần của *The Healer's Legacy* | Phải hái hoa trước khi tới Village of Lu và trước khi gặp cha Yu'er. Guide khác ghi trước Bai Chilian. | **Đang làm**, đang ở bước "Find the Flesh Lily for Yu'er". |
-| 3 | **Purge the Sect** (清理门户) | Diệt hết cung thủ ở *Ruthless Archer Camp*, lấy *Broken-String Bow*, đem cho **Old Archer** trên mái Outpost. | **Feather Bow** (Phantom Edge) | Khi giết Bai Chilian | **Chỉ còn bước cuối.** Anh đang giữ Broken-String Bow, chỉ cần đem đưa cho Old Archer. |
-| 4 | **Festering Secret** (难言之隐) | Điều tra sân bị xích khoá ở Outpost, phá chướng ngại bằng Dread Axe, nói chuyện với Captain. Tiếp theo: đem *lệnh của Captain* cho phó tướng ở ngoại vi Sha-Chi Tower, rồi cho Captain xem bằng chứng tội của **Gu Lingran**. | Ko có đồ, nhưng mở được sách Four Axes thứ 7 và case file thứ 6 | Khi giết Bai Chilian | **Đang làm, đã xong 3 bước + 1 bước phụ.** Đang ở bước "Deliver the captain's order to his lieutenant at the Sha-Chi Tower outskirts". |
-| 5 | **Four Fierce Axes** (凶斧) | Gom đủ **7 cuốn sách** "Four Axes" ở map 1. Có sách gần Bell *Broken Puppet Valley* (cây + nhà), quanh Bell *Outpost Courtyard*, trên bàn gần Bell *Axemaster's Holding Cell*, trên cành cây ở Bell *The Lady's Cave* (cần Hunter's Chain Sickle). Cuốn thứ 7 cần bước "Captain's Orders" của Festering Secret. Sau đó đem cả 7 cuốn cho *Child of Insight* ở Pangzhen. | Blood Oath Dagger (nguyên liệu Soul Tempering cho Dread Axe) | Cuốn thứ 5 mất nếu Festering Secret chưa tới bước cần thiết trước boss Crimson Forest. *Case file* thứ 6 mất khi xong chương Snake's Reflection. | **Đang làm, có 4/7 cuốn.** Đã giết Peng Meng (bước phụ). |
-| 6 | **A Severed Mindseal** (隔绝楔子) | Gặp *Shadow Warden thân thiện* gần Bell *Valley Sha-Chi Tower Summit*. Giết địch dưới chân cái thang lớn gần Bell đó để lấy *Sha-Chi Tower Furnace Inspection Crank*. Dùng nó ở lò tại Bell *Valley Sha-Chi Tower 1st Floor* để lấy **Primal Stone**, đem về cho Shadow Warden. Pangzhen và Crimson Forest mỗi nơi có thêm một viên. | Về sau ở Mount Soulrend có *Statue of the Loyal Hero* (nguyên liệu tempering); achievement *Spectral Blade* | Guide ko biết chính xác lúc nào fail. Game8 coi việc giao viên đầu trước khi rời map 1 là bắt buộc. **Giao trước khi rời Weeping Creek Valley.** | **Chưa nhận.** |
-| 7 | **Boulderguard** (phụ kiện, ko phải nhiệm vụ) | Nói chuyện với *Petrified Mandate Disciple* trong cái chòi cạnh chỗ Old Archer. | Boulderguard (phụ kiện) | Sau khi giết Bai Chilian, NPC này thành Maskwalker và ko nói chuyện được nữa | **Chưa có** (túi đồ chưa có Boulderguard). |
-| 8 | **Leave None Alive** (一个不留) | Nhiệm vụ tự nhận ở Village of Lu (map 3). Phần ở map 1: giết đám địch ở Bell *Outpost* để lấy **Prayer Beads**. Về sau đưa Prayer Beads cho *Stately Monk* ở Village of Lu và chọn **ko tin** (*Not Believe*). Đưa *Thief's Manual* cho *Wounded Thief* trước khi vào Smuggler's Tunnel. | Arrowward, Agarwood Prayer Beads (phụ kiện) | Chọn "believe" là nhà sư hoá đá. Vào giếng ở cổng Village of Lu là ko quay lại được. Ko đưa Thief's Manual trước khi vào Smuggler's Tunnel thì Wounded Thief chết. | Chưa nhận (bắt đầu ở Village of Lu). |
+**1. Y Sư Tập Sự** (*Apprentice Healer*)
+- **Làm gì:** nhận từ **Ngọc Nhi** ở Dịch Trạm, sau khi hạ Bành Mãnh. Tìm 3 dược liệu rồi đem về cho Ngọc Nhi:
+  - **Chỉ Huyết Đằng**: gần Chuông *Nơi Giam Cầm Phủ Lão Đại*.
+  - **Ngưng Chi Diệp**: sau cánh cửa mở bằng *Chìa Khóa Rồng Gỉ Sét*.
+  - **Kim Sang Thảo**: gần *Long Trụ Thung Lũng Than Khóc*.
+- **Phần thưởng:** Hộp Dược Hương (phụ kiện). Nhiệm vụ này cũng là một phần của achievement *The Healer's Legacy*.
+- **Mất khi:** Ngọc Nhi rời Dịch Trạm đi Doanh Trại Phi Tặc. Có guide ghi muộn hơn, là lúc hạ Kinh Dã ở Rừng Huyết Sắc.
+- **Save của anh:** đang làm, có **1/3** (đã có Chỉ Huyết Đằng). Còn thiếu Ngưng Chi Diệp và Kim Sang Thảo.
 
-## Nhiệm vụ cần cho true ending bắt đầu ở map 1
+**2. Huyết Nhục Hoa** (*Flesh Lily*)
+- **Làm gì:** hỏi Ngọc Nhi cách cứu cha cô. Hái **Huyết Nhục Hoa** trong lễ đường của boss **Tân Nương Hoa** (*Hua, Deadly Betrothed*), đi qua Chuông *Tháp Sát Khí Thung Lũng – Tầng 1*, rồi đưa hoa cho Ngọc Nhi. Nhiệm vụ kéo dài sang map sau: tới Bàng Trấn thì quay lại đưa Ngọc Nhi về nhà, rồi cứu cha cô.
+- **Phần thưởng:** Ngọc Bội Khai Quang (phụ kiện). Cũng là một phần của *The Healer's Legacy*.
+- **Mất khi:** chưa hái hoa lúc tới Thôn Lục Gia, hoặc lúc gặp cha Ngọc Nhi. Có guide ghi là trước trận Bạch Xích Luyện.
+- **Save của anh:** đang làm, ở bước "Tìm Huyết Nhục Hoa cho Ngọc Nhi".
 
-Mấy nhiệm vụ này ko fail ở map 1, nhưng **bắt đầu ở đây**. Thiếu bất kỳ cái nào thì ko có true ending.
+**3. Thanh Lý Môn Hộ** (*Purge the Sect*)
+- **Làm gì:** đánh bại đám nghịch đồ ở *Doanh Trại Cung Thủ Tàn Ác* để lấy *Cung Đứt Dây*, rồi đưa cho **Lão Cung Thủ Uống Rượu Giải Sầu** trên mái Dịch Trạm.
+- **Phần thưởng:** **Cung Lông Vũ** (*Feather Bow*, Vũ Khí Phantom).
+- **Mất khi:** hạ Bạch Xích Luyện.
+- **Save của anh:** **chỉ còn bước cuối.** Anh đang giữ Cung Đứt Dây, chỉ việc đem đưa Lão Cung Thủ.
 
-| Nhiệm vụ | Ở map 1 làm gì | Save của anh |
-|---|---|---|
-| **Deep in the Valley** (溪谷深处) | Tìm chìa khoá bị mất trên đỉnh Steel Tower, mở cổng ngoài của trại dưới chân tháp. Theo Maxroll: giết The Hunt trước, rồi nhảy từ điểm nhảy ở Bell *Sha-Chi Tower Summit* và dùng Phantom Edge của The Hunt để lấy *Sha-Chi Tower Base Camp Gate Key*. | **Đang làm**, đang ở bước tìm chìa trên đỉnh tháp. |
-| **Whence the Weeping** (泣声何来) | Tìm nguồn tiếng khóc. Bắt đầu ở đây nhưng phải đợi tới Mandate Encampment và Mountain of Imprisonment mới làm xong được. | **Đang làm**, bước 1. |
-| **Bloodline Awakening** (血脉觉醒) | Nói chuyện với **Mo Yuan** ở *Weeping Creek Valley Lóng Pillar* để bắt đầu, rồi thắng thử thách ở cả 5 Lóng Pillar trong game. Thiếu nhiệm vụ này thì trận boss cuối dừng ở đầu phase 2. | **Chưa bắt đầu.** Ghé Lóng Pillar ở map 1 khi tiện; thảo dược Blemish Goldweed cũng nằm gần đó. |
-| **Crimson Manor** (红房子) | Dùng thùng thuốc nổ (*Powderkeg*) mở lối vào Crimson Manor. Tìm thấy được sau khi giết The Hunt, nhưng phải có *Mute's Tongue* (tìm ở map sau) mới vào được. Trong đó có một trong 2 *Crystal Puppet Eye* cần cho true ending. | **Chưa bắt đầu.** |
-| **Triple Threat** (三面混沌, ko bắt buộc cho ending) | Nhận khi vào thử thách ở Bell *The Lady's Rift*. Đánh *Aberrant Three-Faced Puppet* để lấy *Three-Headed Doll*. Phần sau ở Mirrorwood: **phải trang bị Blazing Edge** trước trận đó, ko thì trận dừng ở phase 2 và mất *Chaos Iron Fragment II*. | Chưa nhận. Ko gấp. |
+**4. Nỗi Niềm Khó Nói** (*Festering Secret*)
+- **Làm gì:** điều tra sân viện bị khoá xích ở Dịch Trạm. Phá chướng ngại bằng Cự Hung Phủ, rồi nói chuyện với đội trưởng. Hai bước tiếp theo:
+  - Mang **Thủ Lệnh Đội Trưởng** cho **Phó Quan** ở vùng rìa Tháp Sát Khí.
+  - Đưa cho đội trưởng chứng cứ về tội ác của **Cố Lăng Nhiên**.
+- **Phần thưởng:** ko có đồ. Nhưng nhiệm vụ này mở cuốn sách Tứ Hung Phủ thứ 7 và hồ sơ vụ án thứ 6.
+- **Mất khi:** hạ Bạch Xích Luyện.
+- **Save của anh:** đang làm, đã xong 3 bước và 1 bước phụ. Đang ở bước mang Thủ Lệnh cho Phó Quan.
+
+**5. Tứ Hung Phủ** (*Four Fierce Axes*)
+- **Làm gì:** gom đủ **7 cuốn hồ sơ Tứ Hung Phủ** ở map 1, rồi mang cả 7 cuốn cho **Bát Quái Đồng Tử** ở Bàng Trấn. Chỗ có sách:
+  - Gần Chuông *Đáy Thung Lũng Tàn Thể Hình Nhân*: trên cây và trong nhà.
+  - Quanh Chuông *Tiểu Viện Dịch Trạm*.
+  - Trên bàn gần Chuông *Nơi Giam Cầm Phủ Lão Đại*.
+  - Trên cành cây ở Chuông *Sơn Động Tượng Thánh Mẫu*, cần **Truy Mệnh Tỏa Liêm** (*Hunter's Chain Sickle*).
+  - Cuốn thứ 7 cần bước Thủ Lệnh của nhiệm vụ Nỗi Niềm Khó Nói.
+- **Phần thưởng:** Dao Kết Nghĩa Kim Lan, nguyên liệu Luyện Hồn cho Cự Hung Phủ.
+- **Mất khi:**
+  - Cuốn thứ 5: mất nếu tới boss Rừng Huyết Sắc mà Nỗi Niềm Khó Nói chưa tới bước cần thiết.
+  - Hồ sơ thứ 6: mất khi xong chương *Máu Trong Rừng, Rắn Trong Gương*.
+- **Save của anh:** đang làm, có **4/7** cuốn. Bước phụ hạ Bành Mãnh đã xong.
+
+**6. Đoạn Tuyệt Khắc Tâm** (*A Severed Mindseal*)
+- **Làm gì:**
+  1. Gặp **Quỷ Sai thân thiện** gần Chuông *Đỉnh Tháp Sát Khí Thung Lũng*.
+  2. Hạ con quái dưới chân cái thang lớn gần đó, lấy **Tay Quay Cửa Quan Sát Lò Sát Khí**.
+  3. Dùng tay quay ở cái lò cạnh Chuông *Tháp Sát Khí Thung Lũng – Tầng 1*, lấy **Hỗn Nguyên Thạch**.
+  4. Đem viên đá về cho Quỷ Sai. Bàng Trấn và Rừng Huyết Sắc mỗi nơi có thêm một viên.
+- **Phần thưởng:** về sau, ở Núi Đoạn Hồn, nhận Tượng Anh Hùng Trung Nghĩa (nguyên liệu Luyện Hồn). Nhiệm vụ cũng gắn với achievement *Spectral Blade*.
+- **Mất khi:** guide ko biết chính xác. Game8 coi việc giao viên đầu tiên trước khi rời map 1 là bắt buộc, nên **giao trước khi rời Thung Lũng Than Khóc**.
+- **Save của anh:** **chưa nhận.**
+
+**7. Hộ Uyển Kiên Nham** (*Boulderguard*, phụ kiện, ko phải nhiệm vụ)
+- **Làm gì:** nói chuyện với **Đệ Tử Chính Đạo Khiếp Đảm** trong cái chòi cạnh chỗ Lão Cung Thủ.
+- **Mất khi:** hạ Bạch Xích Luyện. Sau trận đó NPC này thành Quái Diện, ko nói chuyện được nữa.
+- **Save của anh:** chưa có.
+
+**8. Giết Sạch Không Tha** (*Leave None Alive*)
+- **Làm gì:** nhiệm vụ tự nhận ở Thôn Lục Gia (map 3), nhưng có phần dính tới map 1.
+  - Ở map 1: hạ đám địch ở Chuông *Dịch Trạm* để lấy **Niệm Châu**.
+  - Ở Thôn Lục Gia: đưa Niệm Châu cho **Tăng Nhân Ngồi Ngay Ngắn** và chọn **ko tin**. Đưa *Bí Kíp Phi Tặc* cho **Phi Tặc Bị Thương** trước khi vào Mật Đạo Phi Tặc.
+- **Phần thưởng:** Tị Tiễn Hộ Phù và Niệm Châu Trầm Hương (đều là phụ kiện).
+- **Mất khi:**
+  - Chọn "tin" thì nhà sư hoá đá.
+  - Chưa đưa Bí Kíp mà đã vào Mật Đạo Phi Tặc thì Phi Tặc Bị Thương chết.
+  - Xuống cái giếng ở cổng Thôn Lục Gia là ko quay lại được.
+- **Save của anh:** chưa nhận. Nhiệm vụ bắt đầu ở Thôn Lục Gia.
+
+## Nhiệm vụ cho true ending bắt đầu ở map 1
+
+Mấy nhiệm vụ này ko thất bại ở map 1, nhưng **bắt đầu ở đây**. Thiếu nhiệm vụ nào thì ko có true ending.
+
+**Sâu Trong Thung Lũng** (*Deep in the Valley*)
+- **Ở map 1:** tìm chìa khoá thất lạc trên đỉnh Tháp Thép, rồi mở cổng ngoài dưới chân tháp. Theo Maxroll: hạ Truy Mệnh trước, rồi nhảy từ điểm nhảy ở Chuông *Đỉnh Tháp Sát Khí Thung Lũng* và dùng Vũ Khí Phantom của Truy Mệnh để lấy **Chìa Khóa Cổng Đại Doanh Dưới Tháp Sát Khí**.
+- **Save của anh:** đang làm, ở bước tìm chìa trên đỉnh tháp.
+
+**Tiếng Khóc Nơi Đâu** (*Whence the Weeping*)
+- **Ở map 1:** tìm nơi phát ra tiếng khóc. Nhiệm vụ bắt đầu ở đây, nhưng phải tới Doanh Trại Chính Đạo và Núi Gia Lung mới làm xong được.
+- **Save của anh:** đang làm, bước 1.
+
+**Thức Tỉnh Huyết Mạch** (*Bloodline Awakening*)
+- **Ở map 1:** tới **Long Trụ Thung Lũng Than Khóc** gặp **Kim Diện Áo Đen** (*The Gold-Masked One*) để bắt đầu. Sau đó phải thắng thí luyện ở đủ 5 Long Trụ trong game. Thiếu nhiệm vụ này thì trận boss cuối dừng ngay đầu phase 2.
+- **Save của anh:** **chưa bắt đầu.** Kim Sang Thảo cũng nằm gần Long Trụ, nên ghé một lần làm luôn cả hai.
+
+**Hồng Trạch** (*Crimson Manor*)
+- **Ở map 1:** dùng thùng thuốc nổ phá lối vào Hồng Trạch. Tìm được lối này sau khi hạ Truy Mệnh, nhưng phải có **Lưỡi Kẻ Câm** (tìm ở map sau) mới vào được. Trong đó có một trong 2 *Nhãn Cầu Hình Nhân Pha Lê* cần cho true ending.
+- **Save của anh:** chưa bắt đầu.
+
+**Tam Diện Hỗn Độn** (*Triple Threat*, ko bắt buộc cho ending)
+- **Ở map 1:** nhận khi vào thí luyện ở Chuông *Khe Nứt Tượng Thánh Mẫu*. Hạ **Hình Nhân Ba Mặt Quỷ Dị**, lấy *Búp Bê Ba Đầu*.
+- **Phần sau:** ở Rừng Gương **phải trang bị Hỏa Nhận** trước trận. Ko trang bị thì trận dừng ở phase 2 và mất *Tàn Thiết Hỗn Độn · Hai*.
+- **Save của anh:** chưa nhận, ko gấp.
 
 ## Thứ tự làm em gợi ý (theo save của anh)
 
-1. Đem **Broken-String Bow** cho Old Archer trên mái Outpost → nhận Feather Bow. Tiện nói chuyện luôn với **Petrified Mandate Disciple** trong chòi bên cạnh → Boulderguard.
-2. Làm tiếp **Festering Secret**: đem lệnh của Captain cho phó tướng ở ngoại vi Sha-Chi Tower. Bước này mở luôn cuốn Four Axes thứ 7.
-3. Trên đường đi, gom tiếp **sách Four Axes** (còn 3 cuốn) và **2 thảo dược** còn lại, đem về cho Yu'er.
-4. Lên Sha-Chi Tower: nhận **A Severed Mindseal** ở Bell *Summit*, lấy crank, lấy Primal Stone ở lò tầng 1 rồi giao. Đánh **Hua, Deathly Betrothed** để hái Flesh Lily, đem về cho Yu'er.
-5. Đánh **The Hunt** (mạch chính), rồi làm tiếp **Deep in the Valley**. Ghé **Lóng Pillar** để mở Bloodline Awakening, và ghé chỗ Crimson Manor.
-6. Mở quest log kiểm lại: mọi nhiệm vụ có chữ Weeping Creek Valley phải xong, hoặc chỉ còn bước ở map khác. Xong rồi mới đi Crimson Forest.
+1. Đem **Cung Đứt Dây** cho Lão Cung Thủ trên mái Dịch Trạm, nhận Cung Lông Vũ. Tiện vào cái chòi bên cạnh nói chuyện với **Đệ Tử Chính Đạo Khiếp Đảm** để lấy Hộ Uyển Kiên Nham.
+2. Làm tiếp **Nỗi Niềm Khó Nói**: mang Thủ Lệnh Đội Trưởng cho Phó Quan ở vùng rìa Tháp Sát Khí. Bước này mở luôn cuốn Tứ Hung Phủ thứ 7.
+3. Trên đường đi, gom tiếp **sách Tứ Hung Phủ** (còn thiếu 3 cuốn) và **2 dược liệu** còn lại, rồi về đưa Ngọc Nhi.
+4. Lên Tháp Sát Khí:
+   - Nhận **Đoạn Tuyệt Khắc Tâm** ở Chuông *Đỉnh Tháp*, lấy tay quay, lấy Hỗn Nguyên Thạch ở lò tầng 1 rồi đem giao.
+   - Hạ **Tân Nương Hoa**, hái Huyết Nhục Hoa đem về cho Ngọc Nhi.
+5. Hạ **Truy Mệnh** theo mạch chính, rồi làm tiếp **Sâu Trong Thung Lũng**. Ghé **Long Trụ** gặp Kim Diện Áo Đen, và ghé lối vào Hồng Trạch.
+6. Mở bảng nhiệm vụ kiểm lại lần cuối. Mọi nhiệm vụ nhắc tới Thung Lũng Than Khóc phải xong, hoặc chỉ còn bước ở map khác. Xong hết rồi mới sang Rừng Huyết Sắc.
 
 ## Các điểm ko quay lại về sau (để biết trước)
 
 | Mốc | Mất gì |
 |---|---|
-| Giết **Bai Chilian** (cuối chương *Snake's Reflection*) | NPC ở Outpost và Thieves' Camp thành Maskwalker. Mọi nhiệm vụ còn dở của chương 1–3 ở đó fail, gồm cả *Honor Among Thieves* (phụ kiện Silent Wrap). |
-| Đi vào **giếng ở cổng Village of Lu** | Các bước của *Leave None Alive* cần quay lại Crimson Forest Camp. |
-| Tới **hẻm sau Pangzhen** khi *The Journey Home* (Old Man Gen) còn ở bước 1 | Fail nhiệm vụ, mất Phantom Edge *War Wagon*. Cách tránh: đồng ý ngay khi Old Man Gen nhờ. |
-| Qua **cây cầu vào Mirage Estate** | Một số Bell ở Crimson Forest bị tắt, các nhiệm vụ còn dở ở Meigu Lake và Mountain of Imprisonment cũng mất. |
-| Trận **Leng Tu, Herald of the Veil** ở Mount Soulrend | Ending bị chốt tại đây. Từ đây bị khoá thẳng tới cuối game. |
+| Hạ **Bạch Xích Luyện** (cuối chương *Máu Trong Rừng, Rắn Trong Gương*) | NPC ở Dịch Trạm và Doanh Trại Phi Tặc thành Quái Diện. Mọi nhiệm vụ còn dở ở hai nơi đó thất bại, kể cả *Đạo Nghĩa Phi Tặc* (mất phụ kiện Băng Quấn Tiêu Âm). |
+| Xuống **giếng ở cổng Thôn Lục Gia** | Các bước của *Giết Sạch Không Tha* bắt quay lại Doanh Trại Rừng Huyết Sắc. |
+| Tới **Phố Sau ở Bàng Trấn** khi nhiệm vụ *Đường Về* (Lão Căn Đầu) còn ở bước 1 | Nhiệm vụ thất bại, mất Vũ Khí Phantom **Chiến Xa**. Cách tránh: Lão Căn Đầu nhờ gì thì đồng ý ngay. |
+| Qua **cây cầu vào Hí Mộng Sơn Trang** | Một số Chuông ở Rừng Huyết Sắc bị tắt. Các nhiệm vụ còn dở ở Hồ Mai Cốc và Núi Gia Lung cũng mất. |
+| Trận **Mộng Sai: Lãnh Đồ** ở Núi Đoạn Hồn | Ending bị chốt tại đây, từ đó bị khoá thẳng tới cuối game. |
 
 ## Ending
 
-Game có **4 ending**. Theo các guide:
+Theo các guide, game có **4 ending**:
 
-- **Final Battle** là true ending. Cần đủ: mọi nhiệm vụ màu tím (*Mystery*), **Bloodline Awakening** (thắng cả 5 Lóng Pillar), **Secrets at the Heart of the Lake** (kể cả đoạn nói chuyện với Inanis), **Quick Hand's Request** (chuỗi nhiệm vụ của Quick Hand Zhang), 2 *Crystal Puppet Eye*, 4 *Acolyte Mask*, cây đàn *Illusory Pipa* đã sửa. Rồi đánh boss cuối và thức tỉnh huyết mạch họ Mo ở phase 2.
-- **Annihilation** là bad ending: thiếu *Secrets at the Heart of the Lake* thì ra ending này.
-- **Lóng's Roar** và ending mặc định: thiếu các điều kiện còn lại. Guide nói thiếu điều kiện thì Meng Hua hồi sinh và huỷ diệt Wulin.
+- **Trận Chiến Cuối Cùng** (*Final Battle*): true ending. Cần đủ:
+  - mọi nhiệm vụ màu tím (*Mysteries*);
+  - **Thức Tỉnh Huyết Mạch**: thắng cả 5 Long Trụ;
+  - **Bí mật tại Hồ Tâm**: kể cả đoạn nói chuyện với Hư Không;
+  - **Lời Nhờ Cậy Của Diệu Thủ**: chuỗi nhiệm vụ của Trương Diệu Thủ;
+  - 2 *Nhãn Cầu Hình Nhân Pha Lê*, 4 mặt nạ *Diệt Pháp Sứ*, và cây *Tỳ Bà Huyễn Thuật* đã sửa.
 
-Ko cần New Game+ để có true ending, nhưng lỡ điều kiện thì mất trong lượt chơi đó.
+  Sau đó đánh **Tả Thương** ở trận cuối và thức tỉnh huyết mạch họ Mặc ở phase 2.
+- **Diệt Vong** (*Annihilation*): bad ending, ra khi thiếu *Bí mật tại Hồ Tâm*.
+- **Long Ngâm** (*Lóng's Roar*) và ending mặc định: ra khi thiếu các điều kiện còn lại. Guide tả là Mộng Hoa hồi sinh và huỷ diệt võ lâm.
+
+Ko cần New Game+ mới có true ending, nhưng lỡ điều kiện nào thì mất luôn trong lượt chơi đó.
 
 ## Nguồn
 
-- File text và file nhiệm vụ của game (`Game.locres`, `PBZstory/PBZQuest/*`), đọc bằng tool trong repo: tên nhiệm vụ, các bước, tên item.
-- Save của anh ngày 2026-11-10: trạng thái nhiệm vụ, item đang giữ.
+- File text tiếng Việt, tiếng Anh, tiếng Trung và file nhiệm vụ của game (`Game.locres`, `PBZstory/PBZQuest/*`), đọc bằng tool trong repo. Từ đây em lấy tên nhiệm vụ, các bước, tên NPC, boss, Chuông và item.
+- Save của anh ngày 2026-11-10: trạng thái nhiệm vụ và item đang giữ.
 - [Game8: All Missables and Points of No Return](https://game8.co/games/Phantom-Blade-Zero/archives/634952)
 - [PowerPyx: All Side Quests Guide](https://www.powerpyx.com/phantom-blade-zero-all-side-quests-guide/)
 - [allthings.how: Missables](https://allthings.how/phantom-blade-zero-missables/)
