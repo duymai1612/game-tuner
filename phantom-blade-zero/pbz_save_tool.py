@@ -82,6 +82,8 @@ MATERIALS = {
     "Medi_Material_1": "Apprentice Healer's Memory (medicine upgrade)",
     "Medi_Material_2": "Skilled Healer's Memory (medicine upgrade)",
     "Medi_Material_3": "Master Healer's Memory (medicine upgrade)",
+    # Not a material, but a plain stackable good. DT_InventoryData row holds 99 twice.
+    "Item_Traversing": "Traversal Talisman (warp to any rung Bell when away from one)",
 }
 WEAPONS = {
     "IronBlade": "Jagged Steel", "Long": "Sanguine Reach", "Tang": "Sanguine",
@@ -424,24 +426,34 @@ def cmd_dust(sv, args):
 
 def cmd_item(sv, args):
     slot = sv.pick(args.slot)
-    if args.id not in MATERIALS and not args.allow_unknown:
-        die(f"{args.id} is not a known material (see 'materials'); use --allow-unknown to force.")
+    pairs = args.pairs
+    if len(pairs) % 2:
+        die("give ID QTY pairs, e.g. add-item Weapon_Material_01 20 Weapon_Material_10 20")
     d = sv.json[slot]
     inv = goods(d["Inventory"])
-    rec = inv.get(args.id)
-    old = num(rec.get("CurrentAmount")) if rec else 0
-    new = old + args.qty if args.cmd == "add-item" else args.qty
-    if not 0 <= new <= 2_000_000_000:
-        die("quantity out of range")
     stamp = time.strftime("%Y.%m.%d-%H.%M.%S")
-    if rec is None:
-        inv[args.id] = {"CurrentAmount": new, "MaxAmount": new, "FirstAddTime": stamp, "DirtyTime": stamp,
-                        "AcquiredCycle": num(d.get("PBZGameSystem", {}).get("CycleCount"))}
-    else:
-        rec["CurrentAmount"] = new
-        rec["MaxAmount"] = max(num(rec.get("MaxAmount")), new)
-        rec["DirtyTime"] = stamp
-    sv.write(slot, [f"{args.id} ({MATERIALS.get(args.id, '?')}) {old} -> {new}"], args)
+    changes = []
+    for item, qty in zip(pairs[::2], pairs[1::2]):
+        try:
+            qty = int(qty)
+        except ValueError:
+            die(f"quantity for {item} is not a number: {qty}")
+        if item not in MATERIALS and not args.allow_unknown:
+            die(f"{item} is not a known item (see 'materials'); use --allow-unknown to force.")
+        rec = inv.get(item)
+        old = num(rec.get("CurrentAmount")) if rec else 0
+        new = old + qty if args.cmd == "add-item" else qty
+        if not 0 <= new <= 2_000_000_000:
+            die(f"{item}: quantity out of range")
+        if rec is None:
+            inv[item] = {"CurrentAmount": new, "MaxAmount": new, "FirstAddTime": stamp, "DirtyTime": stamp,
+                         "AcquiredCycle": num(d.get("PBZGameSystem", {}).get("CycleCount"))}
+        else:
+            rec["CurrentAmount"] = new
+            rec["MaxAmount"] = max(num(rec.get("MaxAmount")), new)
+            rec["DirtyTime"] = stamp
+        changes.append(f"{item} ({MATERIALS.get(item, '?')}) {old} -> {new}")
+    sv.write(slot, changes, args)
 
 
 def cmd_restore(sv, args):
@@ -476,7 +488,7 @@ def main():
     p = sub.add_parser("list", help="slots, Dust, weapons, materials")
     p.add_argument("--all", action="store_true", help="show every inventory entry, not just materials")
     p.set_defaults(fn=cmd_list)
-    sub.add_parser("materials", help="known material IDs").set_defaults(fn=cmd_materials)
+    sub.add_parser("materials", help="known item IDs (materials, Traversal Talisman)").set_defaults(fn=cmd_materials)
     p = sub.add_parser("dump", help="write every slot as readable JSON")
     p.add_argument("--out", required=True)
     p.set_defaults(fn=cmd_dump)
@@ -485,9 +497,8 @@ def main():
         p.add_argument("amount", type=int)
         p.set_defaults(fn=cmd_dust)
     for name in ("add-item", "set-qty"):
-        p = sub.add_parser(name, help="add to / set a material quantity")
-        p.add_argument("id")
-        p.add_argument("qty", type=int)
+        p = sub.add_parser(name, help="add to / set item quantities: ID QTY [ID QTY ...]")
+        p.add_argument("pairs", nargs="+", metavar="ID QTY")
         p.add_argument("--allow-unknown", action="store_true")
         p.set_defaults(fn=cmd_item)
     p = sub.add_parser("restore", help="put a backup back")

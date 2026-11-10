@@ -1,6 +1,6 @@
 # Tool save Phantom Blade Zero: cài đặt và sử dụng
 
-`pbz_save_tool.py` đọc và sửa `PBZSaveGame.sav` bản Steam PC, chạy trong WSL. Hiện sửa được Remnant Dust và số lượng nguyên liệu nâng cấp. Đã test với game build 26367565.
+`pbz_save_tool.py` đọc và sửa `PBZSaveGame.sav` bản Steam PC, chạy trong WSL. Hiện sửa được Remnant Dust, số lượng nguyên liệu nâng cấp và Traversal Talisman (phù xuyên hành). Đã test với game build 26367565.
 
 ## Save nằm ở đâu
 
@@ -51,6 +51,8 @@ python3 pbz_save_tool.py add-dust 30000                    # cộng thêm Remnan
 python3 pbz_save_tool.py set-dust 50000                    # đặt Dust về đúng số này
 python3 pbz_save_tool.py add-item Weapon_Material_01 20    # thêm 20 Forged Metal
 python3 pbz_save_tool.py set-qty Weapon_Material_10 40     # đặt Solvent = 40
+python3 pbz_save_tool.py add-item Weapon_Material_02 54 Weapon_Material_11 54   # nhiều món, một lần ghi
+python3 pbz_save_tool.py set-qty Item_Traversing 99        # phù xuyên hành
 python3 pbz_save_tool.py -n add-dust 30000                 # chạy thử, ko ghi
 python3 pbz_save_tool.py dump --out /tmp/pbz-json          # xuất mọi slot ra JSON để đọc
 python3 pbz_save_tool.py restore ~/game/backups/phantom-blade-zero/PBZSaveGame-<ngày giờ>.sav
@@ -77,6 +79,8 @@ Mỗi loại có 3 bậc: đến Lv10, Lv10–20, Lv20 trở lên. Ví dụ Forg
 | `Weapon_Material_25` | Incense Ash | Phantom Edge hệ Summon |
 
 Nâng một vũ khí chính từ Lv1 lên Lv10 tốn khoảng 52 kim loại, 26 Solvent và 27.000–30.000 Dust. Phantom Edge tốn khoảng 26 nguyên liệu và 17.000 Dust. Revert trong game trả lại 100% Dust và nguyên liệu đã dùng.
+
+`Item_Traversing` là Traversal Talisman (穿行符, phù xuyên hành): khi ở xa Bell thì bóp phù để về bất kỳ Bell nào đã rung, còn đi từ Bell sang Bell thì ko tốn phù. Trong game Quick Hand Zhang bán 2.000 Dust một cái. Dòng dữ liệu của nó trong `DT_InventoryData` có giá trị 99, nên tool coi 99 là mức max.
 
 ## Luật trước khi sửa save
 
