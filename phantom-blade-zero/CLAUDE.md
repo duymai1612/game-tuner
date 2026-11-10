@@ -9,4 +9,4 @@ Luật chung của repo ở [../CLAUDE.md](../CLAUDE.md). Đọc [docs/pbz-tool-
 - Tên item lấy từ bảng `DT_InventoryData` trong file game, ko đoán theo ID. Item mới chưa có trong `MATERIALS` thì tra lại từ file game rồi mới thêm vào bảng.
 - Key AES lấy từ `PBZ.exe` lúc chạy. Ko commit key, save hay file JSON dump vào repo.
 - Repo GitHub có nhiều repo "PBZ trainer" cùng số sao, cùng ngày cập nhật, nhìn như mồi malware. Ko dùng và ko giới thiệu chúng. Nguồn tin cậy là PBZ-Editor (qry6868/PBZ-Editor, MIT).
-- Guide nhiệm vụ: tên nhiệm vụ, bước và item lấy từ `Game.locres` và `PBZstory/PBZQuest/*` trong file game; deadline lấy từ guide cộng đồng, các nguồn lệch nhau thì ghi mốc sớm nhất.
+- Guide nhiệm vụ viết bằng tên tiếng Việt chính thức của game (`Localization/Game/vi/Game.locres`, anh chơi bản tiếng Việt), tên tiếng Anh để trong ngoặc. Tên nhiệm vụ, bước và item lấy từ `Game.locres` và `PBZstory/PBZQuest/*` trong file game; deadline lấy từ guide cộng đồng, các nguồn lệch nhau thì ghi mốc sớm nhất.
