@@ -48,7 +48,7 @@ Lưu ý: `--cx-app` phải nhận đường dẫn Windows (`C:\...`), truyền �
 `Warp.app` trong `~/Applications` là bản copy của chính script này, đóng gói lại thành app bundle để mở từ Finder/Spotlight/Dock mà không bật cửa sổ Terminal. Sửa `warp.command` xong thì đồng bộ lại:
 
 ```sh
-cp ~/game/elden-ring/warp.command ~/Applications/Warp.app/Contents/MacOS/Warp
+cp ~/game/game-tuner/elden-ring/warp.command ~/Applications/Warp.app/Contents/MacOS/Warp
 ```
 
 Shortcut CrossOver (`Warp (vanilla)`, `Warp (shortcut)`) chạy `eldenring.exe` trực tiếp nên **không có việt hóa**. Muốn tiếng Việt thì chạy qua script trên.
