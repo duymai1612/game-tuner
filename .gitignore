@@ -3,3 +3,8 @@ __pycache__/
 crash-*.log
 .envrc
 .direnv/
+target/
+*.sav
+*.sl2
+*.tmp-pbz-tool
+.venv/

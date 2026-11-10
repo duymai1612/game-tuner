@@ -8,11 +8,11 @@ Tool offline để sửa save `ER0000.sl2` và đọc `regulation.bin` bản PC.
 
    ```bash
    mkdir -p ~/game && cd ~/game
-   git clone https://github.com/duymai1612/elden-ring-guides.git elden-ring
-   cd elden-ring
+   git clone https://github.com/duymai1612/game-tuner.git
+   cd game-tuner/elden-ring
    ```
 
-   Repo public nên clone và pull ko cần đăng nhập. Muốn push từ PC thì `gh auth login` bằng account duymai1612, hoặc add SSH key của account đó.
+   Repo public nên clone và pull ko cần đăng nhập. Mọi lệnh bên dưới chạy từ thư mục `game-tuner/elden-ring`. Muốn push từ PC thì `gh auth login` bằng account duymai1612, hoặc add SSH key của account đó.
 
 2. Save editor và grace tool chỉ cần `python3` có sẵn trên Ubuntu. Các tool đọc `regulation.bin` cần thêm hai lib:
 
