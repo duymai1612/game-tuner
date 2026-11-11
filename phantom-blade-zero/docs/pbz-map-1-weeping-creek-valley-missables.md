@@ -4,7 +4,7 @@ Map 1 là **Thung Lũng Than Khóc** (*Weeping Creek Valley*). Doc này gom mọ
 
 - **Tên gọi:** tên nhiệm vụ, NPC, boss, Chuông và item lấy từ bản tiếng Việt chính thức của game (build 26367565), nên khớp với chữ anh thấy trong game. Tên tiếng Anh để trong ngoặc, dùng khi cần tra guide trên mạng.
 - **Deadline:** lấy từ guide cộng đồng. Các guide hay lệch nhau, nên mỗi mục em ghi **mốc sớm nhất** có guide nhắc tới. Làm trước mốc đó là chắc chắn an toàn.
-- **Cột "Save của anh":** trạng thái đọc từ save tối 2026-11-10. Lúc đó anh đang ở chương **Tháp Thép Khổng Lồ**: đã hạ Tân Nương Hoa và phase 1 của Truy Mệnh, chưa hạ phase 2 (**Lục Tuyệt Hung Liêm: Truy Mệnh**).
+- **Cột "Save của anh":** trạng thái đọc từ save ngày 2026-11-12. Lúc đó anh đã xong chương **Tháp Thép Khổng Lồ** (đã hạ Truy Mệnh), đã sang Rừng Huyết Sắc và rung Chuông đầu tiên ở đó, rồi quay về làm nốt map 1.
 
 ## Luật ngắn gọn
 
@@ -21,13 +21,13 @@ Map 1 là **Thung Lũng Than Khóc** (*Weeping Creek Valley*). Doc này gom mọ
   - **Kim Sang Thảo**: gần *Long Trụ Thung Lũng Than Khóc*.
 - **Phần thưởng:** Hộp Dược Hương (phụ kiện). Nhiệm vụ này cũng là một phần của achievement *The Healer's Legacy*.
 - **Mất khi:** Ngọc Nhi rời Dịch Trạm đi Doanh Trại Phi Tặc. Có guide ghi muộn hơn, là lúc hạ Kinh Dã ở Rừng Huyết Sắc.
-- **Save của anh:** đang làm, có **1/3** (đã có Chỉ Huyết Đằng). Còn thiếu Ngưng Chi Diệp và Kim Sang Thảo, cả hai nằm trên tuyến Đài Quan Sát Long Trụ (xem lộ trình bên dưới).
+- **Save của anh:** ✅ **xong**, đã có Hộp Dược Hương.
 
 **2. Huyết Nhục Hoa** (*Flesh Lily*)
 - **Làm gì:** hỏi Ngọc Nhi cách cứu cha cô. Hái **Huyết Nhục Hoa** trong lễ đường của boss **Tân Nương Hoa** (*Hua, Deadly Betrothed*), đi qua Chuông *Tháp Sát Khí Thung Lũng – Tầng 1*, rồi đưa hoa cho Ngọc Nhi. Nhiệm vụ kéo dài sang map sau: tới Bàng Trấn thì quay lại đưa Ngọc Nhi về nhà, rồi cứu cha cô.
 - **Phần thưởng:** Ngọc Bội Khai Quang (phụ kiện). Cũng là một phần của *The Healer's Legacy*.
 - **Mất khi:** chưa hái hoa lúc tới Thôn Lục Gia, hoặc lúc gặp cha Ngọc Nhi. Có guide ghi là trước trận Bạch Xích Luyện.
-- **Save của anh:** đã hạ Tân Nương Hoa và đang giữ **Cặp Huyết Nhục Hoa**. Chỉ còn bước "Đưa Huyết Nhục Hoa cho Ngọc Nhi" ở Dịch Trạm.
+- **Save của anh:** đã đưa Cặp Huyết Nhục Hoa cho Ngọc Nhi. Nhiệm vụ vẫn tiếp tục là đúng: bước kế tiếp là **"Sau khi đến Bàng Trấn, quay lại đưa Ngọc Nhi về nhà"**. ⚠️ **Giữ lại 1 bông Huyết Nhục Hoa** đang có trong túi, đó là bông để cứu cha Ngọc Nhi ở Bàng Trấn. Phần ở Bàng Trấn: hạ *Đội Trưởng Quỷ Sai: Hỏa Lưu Tinh*, nhặt *Huyết Nhục Hoa Đỏ*, hạ *"Lôi Thương": Trường Hồng*, rồi dùng bông thường cứu cha cô.
 - **Có nên tha Tân Nương Hoa ko:** ko. Trong file game, trận này ko có lựa chọn tha: bà chỉ nói vài câu rồi vào trận luôn. Ko hạ bà thì ko có hoa, mất cả chuỗi nhiệm vụ của Ngọc Nhi. Hạ bà được thanh **Scarlet Wraithblade**.
 
 **3. Thanh Lý Môn Hộ** (*Purge the Sect*)
@@ -42,7 +42,7 @@ Map 1 là **Thung Lũng Than Khóc** (*Weeping Creek Valley*). Doc này gom mọ
   - Đưa cho đội trưởng chứng cứ về tội ác của **Cố Lăng Nhiên**.
 - **Phần thưởng:** ko có đồ. Nhưng nhiệm vụ này mở cuốn sách Tứ Hung Phủ thứ 7 và hồ sơ vụ án thứ 6.
 - **Mất khi:** hạ Bạch Xích Luyện.
-- **Save của anh:** đang làm, đã xong 3 bước và 1 bước phụ. Đang ở bước mang Thủ Lệnh cho Phó Quan. Theo PowerPyx, người cần gặp đứng gần Chuông **Đài Quan Sát Long Trụ**, mà anh chưa rung Chuông này.
+- **Save của anh:** ✅ **xong**. Anh cũng có phụ kiện *Ngọc Bội Chính Khí*.
 
 **5. Tứ Hung Phủ** (*Four Fierce Axes*)
 - **Làm gì:** gom đủ **7 cuốn hồ sơ Tứ Hung Phủ** ở map 1, rồi mang cả 7 cuốn cho **Bát Quái Đồng Tử** ở Bàng Trấn. Chỗ có sách:
@@ -55,10 +55,7 @@ Map 1 là **Thung Lũng Than Khóc** (*Weeping Creek Valley*). Doc này gom mọ
 - **Mất khi:**
   - Cuốn thứ 5: mất nếu tới boss Rừng Huyết Sắc mà Nỗi Niềm Khó Nói chưa tới bước cần thiết.
   - Hồ sơ thứ 6: mất khi xong chương *Máu Trong Rừng, Rắn Trong Gương*.
-- **Save của anh:** đang làm, có **4/7** cuốn. Bước phụ hạ Bành Mãnh đã xong. Đối chiếu với các Chuông anh đã rung, 3 cuốn còn thiếu nhiều khả năng là:
-  - cuốn ở **Đài Quan Sát Long Trụ** (nhận khi đưa Thủ Lệnh);
-  - cuốn trên bàn ở **Chân Tháp Sát Khí Thung Lũng** (mở được sau khi có Chìa Khóa Cổng Đại Doanh);
-  - cuốn trên cành cây ở **Sơn Động Tượng Thánh Mẫu** (cần Truy Mệnh Tỏa Liêm, nhận sau khi hạ Truy Mệnh).
+- **Save của anh:** đang làm, có **6/7** cuốn. Bản ghi tiến độ trong save cho thấy còn thiếu cuốn **thứ 3**. Theo thứ tự trong guide PowerPyx thì đó nhiều khả năng là cuốn **trong một căn nhà gần Chuông *Tiểu Viện Dịch Trạm***. Hạn chót: trước trận Bạch Xích Luyện.
 
 **6. Đoạn Tuyệt Khắc Tâm** (*A Severed Mindseal*)
 - **Làm gì:**
@@ -68,12 +65,13 @@ Map 1 là **Thung Lũng Than Khóc** (*Weeping Creek Valley*). Doc này gom mọ
   4. Đem viên đá về cho Quỷ Sai. Bàng Trấn và Rừng Huyết Sắc mỗi nơi có thêm một viên.
 - **Phần thưởng:** về sau, ở Núi Đoạn Hồn, nhận Tượng Anh Hùng Trung Nghĩa (nguyên liệu Luyện Hồn). Nhiệm vụ cũng gắn với achievement *Spectral Blade*.
 - **Mất khi:** guide ko biết chính xác. Game8 coi việc giao viên đầu tiên trước khi rời map 1 là bắt buộc, nên **giao trước khi rời Thung Lũng Than Khóc**.
-- **Save của anh:** đã nhận, và **đang giữ Tay Quay**. Chỉ còn đem tay quay tới lò ở Chuông *Tháp Sát Khí Thung Lũng – Tầng 1*, rồi đưa đá cho Quỷ Sai.
+- **Save của anh:** ✅ phần map 1 **xong**, viên Hỗn Nguyên Thạch đầu tiên đã giao. Bước tiếp theo là "Gặp lại Quỷ Sai thân thiện"; hai viên còn lại ở Bàng Trấn và Rừng Huyết Sắc.
 
 **7. Hộ Uyển Kiên Nham** (*Boulderguard*, phụ kiện, ko phải nhiệm vụ)
 - **Làm gì:** nói chuyện với **Đệ Tử Chính Đạo Khiếp Đảm** trong cái chòi cạnh chỗ Lão Cung Thủ.
 - **Mất khi:** hạ Bạch Xích Luyện. Sau trận đó NPC này thành Quái Diện, ko nói chuyện được nữa.
-- **Save của anh:** chưa có. Phụ kiện mới của anh là *Truy Sát Lệnh*, ko phải món này.
+- **Save của anh:** ✅ **đã có**.
+- **Mẹo:** nói chuyện với Đệ Tử Khiếp Đảm chỉ mở ra cái mộ. Ông ta cứ lặp câu "ba người bị chôn vội trong chuồng ngựa", đó là gợi ý chỗ đi tìm. Mộ ko có đánh dấu, nằm sau căn nhà cách Chuông *Nơi Giam Cầm Phủ Lão Đại* khoảng 40 m. Tương tác với mộ thì nhận Hộ Uyển Kiên Nham.
 
 **8. Giết Sạch Không Tha** (*Leave None Alive*)
 - **Làm gì:** nhiệm vụ tự nhận ở Thôn Lục Gia (map 3), nhưng có phần dính tới map 1.
@@ -92,7 +90,7 @@ Mấy nhiệm vụ này ko thất bại ở map 1, nhưng **bắt đầu ở đ�
 
 **Sâu Trong Thung Lũng** (*Deep in the Valley*)
 - **Ở map 1:** tìm chìa khoá thất lạc trên đỉnh Tháp Thép, rồi mở cổng ngoài dưới chân tháp. Theo Maxroll: hạ Truy Mệnh trước, rồi nhảy từ điểm nhảy ở Chuông *Đỉnh Tháp Sát Khí Thung Lũng* và dùng Vũ Khí Phantom của Truy Mệnh để lấy **Chìa Khóa Cổng Đại Doanh Dưới Tháp Sát Khí**.
-- **Save của anh:** đang làm, ở bước tìm chìa trên đỉnh tháp.
+- **Save của anh:** ✅ **xong**.
 
 **Tiếng Khóc Nơi Đâu** (*Whence the Weeping*)
 - **Ở map 1:** tìm nơi phát ra tiếng khóc. Nhiệm vụ bắt đầu ở đây, nhưng phải tới Doanh Trại Chính Đạo và Núi Gia Lung mới làm xong được.
@@ -100,11 +98,11 @@ Mấy nhiệm vụ này ko thất bại ở map 1, nhưng **bắt đầu ở đ�
 
 **Thức Tỉnh Huyết Mạch** (*Bloodline Awakening*)
 - **Ở map 1:** tới **Long Trụ Thung Lũng Than Khóc** gặp **Kim Diện Áo Đen** (*The Gold-Masked One*) để bắt đầu. Sau đó phải thắng thí luyện ở đủ 5 Long Trụ trong game. Thiếu nhiệm vụ này thì trận boss cuối dừng ngay đầu phase 2.
-- **Save của anh:** **chưa bắt đầu.** Kim Sang Thảo cũng nằm gần Long Trụ, nên ghé một lần làm luôn cả hai.
+- **Save của anh:** đã bắt đầu. Đã đánh Kim Diện Áo Đen 5 lần nhưng chưa thắng. Ko có deadline, xem mục "Kim Diện Áo Đen" bên dưới.
 
 **Hồng Trạch** (*Crimson Manor*)
 - **Ở map 1:** dùng thùng thuốc nổ phá lối vào Hồng Trạch. Tìm được lối này sau khi hạ Truy Mệnh, nhưng phải có **Lưỡi Kẻ Câm** (tìm ở map sau) mới vào được. Trong đó có một trong 2 *Nhãn Cầu Hình Nhân Pha Lê* cần cho true ending.
-- **Save của anh:** chưa bắt đầu.
+- **Save của anh:** đã nhận, đang đợi Lưỡi Kẻ Câm ở map sau.
 
 **Tam Diện Hỗn Độn** (*Triple Threat*, ko bắt buộc cho ending)
 - **Ở map 1:** nhận khi vào thí luyện ở Chuông *Khe Nứt Tượng Thánh Mẫu*. Hạ **Hình Nhân Ba Mặt Quỷ Dị**, lấy *Búp Bê Ba Đầu*.
@@ -112,6 +110,8 @@ Mấy nhiệm vụ này ko thất bại ở map 1, nhưng **bắt đầu ở đ�
 - **Save của anh:** chưa nhận, ko gấp.
 
 ## Lộ trình chi tiết (theo save tối 2026-11-10)
+
+> **Cập nhật 2026-11-12:** anh đã đi hết lộ trình này. Ở map 1 chỉ còn thiếu **1 cuốn Tứ Hung Phủ** (xem mục 5 ở trên). Kim Diện Áo Đen thì để đánh sau.
 
 Đi theo thứ tự này là ít chạy đi chạy lại nhất. Đi giữa các Chuông ko tốn gì, còn ở xa Chuông thì dùng Phù Xuyên Hành.
 
@@ -144,13 +144,13 @@ Một chuyến đi làm được 5 việc:
 
 **Bước 5. Kiểm tra trước khi rời map 1**
 Mở bảng nhiệm vụ và kiểm từng mục:
-- [ ] Y Sư Tập Sự: **Hoàn thành**.
-- [ ] Huyết Nhục Hoa: đang ở bước "Sau khi đến Bàng Trấn, quay lại đưa Ngọc Nhi về nhà".
-- [ ] Nỗi Niềm Khó Nói: **Hoàn thành**.
-- [ ] Tứ Hung Phủ: đủ 7 cuốn, chỉ còn bước đưa cho Bát Quái Đồng Tử ở Bàng Trấn.
-- [ ] Đoạn Tuyệt Khắc Tâm: đã giao viên Hỗn Nguyên Thạch đầu tiên.
-- [ ] Thức Tỉnh Huyết Mạch: đã bắt đầu.
-- [ ] Đã có phụ kiện Hộ Uyển Kiên Nham.
+- [x] Y Sư Tập Sự: **Hoàn thành**.
+- [x] Huyết Nhục Hoa: đang ở bước "Sau khi đến Bàng Trấn, quay lại đưa Ngọc Nhi về nhà".
+- [x] Nỗi Niềm Khó Nói: **Hoàn thành**.
+- [ ] Tứ Hung Phủ: đủ 7 cuốn, chỉ còn bước đưa cho Bát Quái Đồng Tử ở Bàng Trấn. *(2026-11-12: có 6/7)*
+- [x] Đoạn Tuyệt Khắc Tâm: đã giao viên Hỗn Nguyên Thạch đầu tiên.
+- [x] Thức Tỉnh Huyết Mạch: đã bắt đầu.
+- [x] Đã có phụ kiện Hộ Uyển Kiên Nham.
 
 **Sang Rừng Huyết Sắc rồi vẫn quay về được ko:** được. Trước trận **Bạch Xích Luyện** anh vẫn quay về map 1 bằng Chuông được, nên các mục ở trên để sau cũng kịp. Có hai ngoại lệ:
 - **Y Sư Tập Sự** có mốc sớm hơn: lúc tới Doanh Trại Phi Tặc và rung Hạc Chuông ở đó, hoặc lúc hạ Vong Mạng Đồ: Kinh Dã.
@@ -159,6 +159,32 @@ Mở bảng nhiệm vụ và kiểm từng mục:
 → Hai nhiệm vụ này nên làm xong ngay ở map 1.
 
 ## Ghi chú về map sau
+
+### Kim Diện Áo Đen (thí luyện Long Trụ đầu tiên)
+
+- **Ở đâu:** chạm vào Long Trụ là Hồn rơi vào một cõi khác, nơi lửa và bóng tối đan xen. Kim Diện Áo Đen ở trong cõi đó, ko phải ở Ngoại Võ Lâm, tức thế giới bình thường. Muốn ra thì chọn **"Trở Về Ngoại Võ Lâm"** trong menu Chuông.
+- **Thua mãi thì sao:** ko sao cả.
+  - Chết ko bị trừ ngày. Save ghi anh đã chết 25 lần, còn số ngày chỉ giảm từ 64 xuống 61, mà phần giảm đó là do tiến độ cốt truyện. Chỉ chế độ *66 Days* mới trừ 1 ngày mỗi lần chết.
+  - Trận này ko có deadline. Chỉ cần thắng cả 5 Long Trụ trước điểm ko quay lại ở Núi Đoạn Hồn.
+- **Nên đánh lúc nào:** guide khuyên quay lại sau. Splaze khuyên đợi tới sau lần đầu ghé Bàng Trấn, Maxroll khuyên đợi xong hẳn Rừng Huyết Sắc để có thời gian mài phụ kiện.
+- **Mẹo đánh:**
+  - Trận đầu hắn chưa dùng chiêu Black Flash.
+  - Đòn xanh và đòn đỏ đều có động tác báo trước rõ.
+  - Nên đeo **Hồn Nguyên Phù** (nới thời gian đỡ đòn và né hoàn hảo thêm 15%).
+  - Guide khuyên dùng **Vong Mạng Đao** (*Outlaw Warblade*) nếu anh đã có.
+- **Phần thưởng:** **Hộ Uyển Phản Đòn**, đỡ đòn thành công xong thì tăng 20% sát thương trong 2 giây.
+
+### Tiếng Khóc Nơi Đâu (cần cho true ending)
+
+Nhiệm vụ tự nhận ở map 1, nhưng các bước nằm rải ở mấy map sau:
+
+1. Ở **Thôn Lục Gia**, hỏi hết chuyện với **Trân Yêu** về tiếng khóc. Cô chỉ anh tới phía đông bắc Hồ Mai Cốc, chỗ **Cửa Sương Mù Than Khóc**.
+2. Gom đủ **5 mảnh Tỳ Bà Huyễn Thuật**. Có bước tìm **Huyễn Quỷ** ở Bàng Trấn. Sửa xong đàn thì mở cổng ở Hồ Mai Cốc.
+3. Lên **Núi Gia Lung**, tới **Từ Đường Thánh Mẫu Nương Nương** trên đỉnh và rung Chuông ở đó.
+4. Hạ **Phản Đồ Côn Luân: Hoang Hành Tử**. Trận này cũng là một bước của Côn Luân Tam Kiệt.
+5. Dùng Vũ Khí Phantom **Huyết Trích Tử** mở cơ quan dưới bệ tượng, đi xuống lối tối dưới Từ Đường, tới chỗ xác **Huyền Giả**.
+6. Phần thưởng: Vũ Khí Phantom **Hư Không Hoa Phiến**.
+
 
 - **Côn Luân Tam Kiệt** (*Pillars of Kunlun*, cần cho true ending): anh đã nhận nhiệm vụ này. Phần tiếp theo ở Bàng Trấn (tìm Ngụy Tam Thuyền) và Doanh Trại Chính Đạo, ở map 1 ko còn gì phải làm.
 - **Nữ Kiếm Khách Áo Đỏ** (*Red*, nhiệm vụ *Nữ Nhân Ma Giáo*), gặp ở Doanh Trại Chính Đạo: **lần đầu gặp đừng giết, rút lui bỏ chạy.** Giết cô ấy thì mất cả chuỗi nhiệm vụ, đồ thu thập và phụ kiện Twin Fish Pendant. Tha thì về sau mở được Hoa Ký Ức của cô, và cô quay lại trong cốt truyện trước trận cuối.
@@ -193,7 +219,7 @@ Ko cần New Game+ mới có true ending, nhưng lỡ điều kiện nào thì m
 ## Nguồn
 
 - File text tiếng Việt, tiếng Anh, tiếng Trung và file nhiệm vụ của game (`Game.locres`, `PBZstory/PBZQuest/*`), đọc bằng tool trong repo. Từ đây em lấy tên nhiệm vụ, các bước, tên NPC, boss, Chuông và item.
-- Save của anh tối 2026-11-10: trạng thái nhiệm vụ, boss đã hạ, Chuông đã rung và item đang giữ.
+- Save của anh ngày 2026-11-10 và 2026-11-12: trạng thái nhiệm vụ, boss đã hạ, Chuông đã rung và item đang giữ.
 - [Game8: All Missables and Points of No Return](https://game8.co/games/Phantom-Blade-Zero/archives/634952)
 - [PowerPyx: All Side Quests Guide](https://www.powerpyx.com/phantom-blade-zero-all-side-quests-guide/)
 - [allthings.how: Missables](https://allthings.how/phantom-blade-zero-missables/)
@@ -201,5 +227,10 @@ Ko cần New Game+ mới có true ending, nhưng lỡ điều kiện nào thì m
 - [gamingpromax: Rusted Loong Key](https://gamingpromax.com/phantom-blade-zero-rusted-loong-key/)
 - [xboxplay.games: How to Use the Rusted Loong Key](https://xboxplay.games/phantom-blade-zero/how-to-use-the-rusted-loong-key-in-phantom-blade-zero-77036)
 - [PC Gamer: Hua, Deadly Betrothed](https://www.pcgamer.com/games/action/phantom-blade-zero-hua-boss-guide/)
+- [Maxroll: How to Beat the Gold-Masked One](https://maxroll.gg/phantom-blade-zero/bosses/how-to-beat-the-gold-masked-one-mo-yuan-and-complete-bloodline-awakening)
+- [Splaze: Gold-Masked One](https://splaze.gg/en/guides/phantom-blade-zero-comment-battre-l-homme-au-masque-d-or-44498e)
+- [Game8: Whence the Weeping](https://game8.co/games/Phantom-Blade-Zero/archives/634855)
+- [allthings.how: Boulderguard](https://allthings.how/phantom-blade-zero-boulderguard/)
+- [thegameswiki: The 66 day countdown](https://thegameswiki.com/phantom-blade-zero/wiki/the-66-day-countdown)
 - [allthings.how: Endings](https://allthings.how/phantom-blade-zero-endings/)
 - [phantomblade.guide: Endings](https://phantomblade.guide/guides/endings/)
