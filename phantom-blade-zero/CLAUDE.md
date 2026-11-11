@@ -5,7 +5,7 @@ Luật chung của repo ở [../CLAUDE.md](../CLAUDE.md). Đọc [docs/pbz-tool-
 ## Luật
 - Chỉ sửa slot mà Continue load (`__Advanced__.LastContinueSlot`); tool mặc định làm vậy, `list` đánh dấu slot đó.
 - Anh chỉ muốn bỏ phần cày: Dust và nguyên liệu nâng cấp. Ko tự ý thêm vũ khí chưa nhặt, mở skill, sửa cờ boss/quest hay `RemainingDays`; muốn sửa mấy thứ đó thì hỏi trước.
-- Dust thêm vừa phải (vài chục nghìn mỗi lần), ko để vô hạn, để anh vẫn phải chọn nâng gì trước.
+- Từ 2026-11-12 anh muốn vũ khí mạnh, OP là chính: thêm Dust và nguyên liệu thoải mái (Dust vài trăm nghìn, nguyên liệu dư gấp đôi nhu cầu), kể cả nguyên liệu bậc 2-3. Vẫn thêm qua tài nguyên để anh tự nâng ở lò rèn, ko sửa thẳng cấp vũ khí trừ khi anh yêu cầu.
 - Tên item lấy từ bảng `DT_InventoryData` trong file game, ko đoán theo ID. Item mới chưa có trong `MATERIALS` thì tra lại từ file game rồi mới thêm vào bảng.
 - Key AES lấy từ `PBZ.exe` lúc chạy. Ko commit key, save hay file JSON dump vào repo.
 - Repo GitHub có nhiều repo "PBZ trainer" cùng số sao, cùng ngày cập nhật, nhìn như mồi malware. Ko dùng và ko giới thiệu chúng. Nguồn tin cậy là PBZ-Editor (qry6868/PBZ-Editor, MIT).
