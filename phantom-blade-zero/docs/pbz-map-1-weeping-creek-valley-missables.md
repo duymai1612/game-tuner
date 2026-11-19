@@ -55,7 +55,7 @@ Map 1 là **Thung Lũng Than Khóc** (*Weeping Creek Valley*). Doc này gom mọ
 - **Mất khi:**
   - Cuốn thứ 5: mất nếu tới boss Rừng Huyết Sắc mà Nỗi Niềm Khó Nói chưa tới bước cần thiết.
   - Hồ sơ thứ 6: mất khi xong chương *Máu Trong Rừng, Rắn Trong Gương*.
-- **Save của anh:** đang làm, có **6/7** cuốn. Bản ghi tiến độ trong save cho thấy còn thiếu cuốn **thứ 3**. Theo thứ tự trong guide PowerPyx thì đó nhiều khả năng là cuốn **trong một căn nhà gần Chuông *Tiểu Viện Dịch Trạm***. Hạn chót: trước trận Bạch Xích Luyện.
+- **Save của anh:** đang làm, có **6/7** cuốn. Cuốn còn thiếu là **Mật Thư Từ Mưu Sĩ Hứa Phong** (*Strategist Xu Feng's Secret Letter*, item `R_01005`), ở cuối **Sơn Động Tượng Thánh Mẫu**, trên bệ phía trên, đi qua cây cầu có lính gác. Cây cầu chỉ mở sau khi tới **Thôn Lục Gia** (map 3) và nhận *Giết Sạch Không Tha*, rồi quay về Dịch Trạm. Thôn Lục Gia nằm sau trận Bạch Xích Luyện, nên lá thư này lấy **sau** trận đó, ko bị mất. Cùng chỗ có rương vàng đựng **Nhẫn Thần Cơ** (*Shenji's Ring*). (2026-11-18: anh đã rung Chuông Sơn Động, chưa nhặt thư và chưa mở rương.)
 
 **6. Đoạn Tuyệt Khắc Tâm** (*A Severed Mindseal*)
 - **Làm gì:**
@@ -107,11 +107,11 @@ Mấy nhiệm vụ này ko thất bại ở map 1, nhưng **bắt đầu ở đ�
 **Tam Diện Hỗn Độn** (*Triple Threat*, ko bắt buộc cho ending)
 - **Ở map 1:** nhận khi vào thí luyện ở Chuông *Khe Nứt Tượng Thánh Mẫu*. Hạ **Hình Nhân Ba Mặt Quỷ Dị**, lấy *Búp Bê Ba Đầu*.
 - **Phần sau:** ở Rừng Gương **phải trang bị Hỏa Nhận** trước trận. Ko trang bị thì trận dừng ở phase 2 và mất *Tàn Thiết Hỗn Độn · Hai*.
-- **Save của anh:** chưa nhận, ko gấp.
+- **Save của anh:** (2026-11-12 22:21) đã nhận, đã đánh Hình Nhân Ba Mặt 1 lần và thua. Ko gấp.
 
 ## Lộ trình chi tiết (theo save tối 2026-11-10)
 
-> **Cập nhật 2026-11-12:** anh đã đi hết lộ trình này. Ở map 1 chỉ còn thiếu **1 cuốn Tứ Hung Phủ** (xem mục 5 ở trên). Kim Diện Áo Đen thì để đánh sau.
+> **Cập nhật 2026-11-12:** anh đã đi hết lộ trình này. Ở map 1 chỉ còn thiếu **1 cuốn Tứ Hung Phủ** (Mật Thư Hứa Phong, xem mục 5), mà cuốn này phải đợi tới Thôn Lục Gia mới lấy được. Kim Diện Áo Đen thì để đánh sau.
 
 Đi theo thứ tự này là ít chạy đi chạy lại nhất. Đi giữa các Chuông ko tốn gì, còn ở xa Chuông thì dùng Phù Xuyên Hành.
 
@@ -221,6 +221,7 @@ Ko cần New Game+ mới có true ending, nhưng lỡ điều kiện nào thì m
 - File text tiếng Việt, tiếng Anh, tiếng Trung và file nhiệm vụ của game (`Game.locres`, `PBZstory/PBZQuest/*`), đọc bằng tool trong repo. Từ đây em lấy tên nhiệm vụ, các bước, tên NPC, boss, Chuông và item.
 - Save của anh ngày 2026-11-10 và 2026-11-12: trạng thái nhiệm vụ, boss đã hạ, Chuông đã rung và item đang giữ.
 - [Game8: All Missables and Points of No Return](https://game8.co/games/Phantom-Blade-Zero/archives/634952)
+- [finalboss.io: Four Fierce Axes – All Pages](https://finalboss.io/phantom-blade-zero-how-to-complete-four-fierce-axes-all-pages)
 - [PowerPyx: All Side Quests Guide](https://www.powerpyx.com/phantom-blade-zero-all-side-quests-guide/)
 - [allthings.how: Missables](https://allthings.how/phantom-blade-zero-missables/)
 - [Maxroll: How to Get the True Ending](https://maxroll.gg/phantom-blade-zero/guides/how-to-get-the-true-ending-in-phantom-blade-zero)
