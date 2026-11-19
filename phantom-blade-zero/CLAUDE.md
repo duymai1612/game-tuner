@@ -4,6 +4,8 @@ Luật chung của repo ở [../CLAUDE.md](../CLAUDE.md). Đọc [docs/pbz-tool-
 
 Mod: danh sách, thứ tự cài và cách gỡ ở [docs/pbz-mods-cai-dat.md](docs/pbz-mods-cai-dat.md). File mod nằm ở repo private `duymai1612/game-tuner-mods`, ko commit file mod vào repo này.
 
+Cheatsheet (cơ chế Sát Khí/Phá Thủ, đồ nên dùng, chỗ nâng cấp, map 100%, mốc dễ lỡ map 2-3) ở [docs/pbz-cheatsheet.md](docs/pbz-cheatsheet.md). Tra thêm được gì mới thì cập nhật vào đó.
+
 ## Luật
 - Chỉ sửa slot mà Continue load (`__Advanced__.LastContinueSlot`); tool mặc định làm vậy, `list` đánh dấu slot đó.
 - Anh chỉ muốn bỏ phần cày: Dust và nguyên liệu nâng cấp. Ko tự ý thêm vũ khí chưa nhặt, mở skill, sửa cờ boss/quest hay `RemainingDays`; muốn sửa mấy thứ đó thì hỏi trước.
