@@ -101,7 +101,11 @@ Các nhánh kỹ năng khác mở bằng Hắc Thạch, Hổ Phách Sát Khí, H
 - Mỗi Chuông mở sương mù cho một vùng trên bản đồ (bảng `DT_BellData` trong file game nối Chuông với vùng `WorldMapFog_*`). Rung đủ Chuông là map lên 100%. Game tính % theo diện tích, nên thiếu 1 vùng có thể mất hơn 10%.
 - Save ghi các vùng đã mở ở `MapSubsystem/UnLockMaskInfos`.
 - **Map 1:** có 20 vùng. Vùng cuối là Chuông **Sơn Động Tượng Thánh Mẫu** (*The Lady's Cave*), sau cây cầu có lính gác. Cầu chỉ mở sau khi tới Thôn Lục Gia và nhận *Giết Sạch Không Tha*.
-- **Map 2 (Rừng Huyết Sắc):** có 17 vùng. Các Chuông khó tìm: Giao Lộ, Tỉnh Mộng Chi Địa, Đường Mòn Phục Kích, Cầu Vòm Ven Hồ, và 3 Chuông ở Tháp Sát Khí Rừng Huyết Sắc. Ở Chuông Chân Tháp có Chìa Khóa Tháp Sát Khí Rừng Huyết Sắc, cách Chuông khoảng 36 m và cao hơn khoảng 8 m. Chưa chắc: một số chỗ có thể phải đợi chương *Tứ Đại Xà Ốc*, chương này cần vũ khí phun lửa để đốt bụi gai.
+- **Map 2 (Rừng Huyết Sắc):** có 17 vùng. Mấy Chuông cuối mở theo cốt truyện, ko lấy hết được ở lượt đầu:
+  - **Giao Lộ**: guide xếp nó vào Thôn Lục Gia. Đi xuống từ Chuông Tỉnh Mộng Chi Địa là gặp.
+  - **Cầu Vòm Ven Hồ**: cần Vũ Khí Phantom **Chuyết Bích Thuẫn** (rơi ở Thôn Lục Gia; một guide ghi thêm Liệt Diễm Sư Đầu). Từ Chuông Doanh Trại Phi Tặc vào hầm, qua cầu trên hào, đỡ bẫy nỏ bằng khiên, ra lối mòn ẩn; Chuông ở trên cây cầu phía đông.
+  - **Cổng, Chân và Tầng 6 Tháp Sát Khí Rừng Huyết Sắc**: chỉ tới được sau khi vào Hí Mộng Sơn Trang, lúc phía đông Rừng Huyết Sắc phủ tuyết và mặt hồ đóng băng. Từ Chuông Lối Vào Rừng Gương đi tây nam lên dốc, qua mặt hồ băng tới tháp. Trong tháp: rẽ trái lên Tầng 6 (có Quỷ Sai thân thiện), rẽ phải hoặc đi thang máy xuống Chân Tháp. Chìa Khóa Tháp Sát Khí và Hỗn Nguyên Thạch ở lò luyện cạnh Chân Tháp.
+  - **Đường Mòn Phục Kích**: chưa guide nào chỉ đường.
 - Mod **Map Tracker Plus** hiện vị trí đồ và Chuông, xem [pbz-mods-cai-dat.md](pbz-mods-cai-dat.md).
 
 ## 5. Map 2: Rừng Huyết Sắc
@@ -225,7 +229,7 @@ Mở bằng Tỳ Bà Huyễn Thuật ở Cửa Sương Mù Than Khóc. Lên núi
 
 - Lối vào: lấy đủ đồ ở Bạch, Hắc, Xích Xà Ốc rồi mở cửa trong Thanh Xà Ốc. Đây là điểm ko quay lại ở mục 6.
 - Đường chính: Hí Viện → lấy **Vé Xem Kịch** ở tế đài Diễn Võ Trường → Phủ Đệ Thánh Thể.
-- Boss: Hình Nhân Yển Nguyệt Đao Số 12 Ngọc Đỉnh, Xích Ảnh Cốt Nhận Tù Phong, Mo Yuan (chưa tìm được tên tiếng Việt), **Lôi Đương** (rơi **Hổ Pháo**, bắn sập tường đá, kể cả bức tường ở map 1).
+- Boss: Hình Nhân Yển Nguyệt Đao Số 12 Ngọc Đỉnh, Xích Ảnh Cốt Nhận Tù Phong, Bảo Chủ Ám Ma Thiên Bảo Ma Uyên, **Lôi Đương** (rơi **Hổ Pháo**, bắn sập tường đá, kể cả bức tường ở map 1).
 - **Long Trụ thứ 5:** gần Đình Liễu Phong, móc từ hành lang bên phải. Phần thưởng: **Mặt Nạ Ám Ma Thiên Bảo**.
 - **Tam Diện Hỗn Độn:** nhặt 3 Hoa Ký Ức ở đây, Luyện Hồn **Hắc Thương Trường Kiếm** (*Sanguine Reach*) thành **Hỏa Nhận**. Sau đó dùng Hỏa Nhận làm vũ khí chính đánh lại **Ngọc Tông** ở Rừng Gương phủ tuyết, nhận **Hỗn Độn Thấu Cốt**.
 - **Trương Diệu Thủ:** nộp bảo vật Hí Mộng Sơn Trang ở chỗ ẩn náu Đường Trúc Ảnh để nhận **Nguyệt Lôi Đăng**.
