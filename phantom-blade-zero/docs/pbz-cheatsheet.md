@@ -109,7 +109,8 @@ Các nhánh kỹ năng khác mở bằng Hắc Thạch, Hổ Phách Sát Khí, H
   - **Giao Lộ**: guide xếp nó vào Thôn Lục Gia. Đi xuống từ Chuông Tỉnh Mộng Chi Địa là gặp.
   - **Cầu Vòm Ven Hồ**: cần Vũ Khí Phantom **Chuyết Bích Thuẫn** (rơi ở Thôn Lục Gia; một guide ghi thêm Liệt Diễm Sư Đầu). Từ Chuông Doanh Trại Phi Tặc vào hầm, qua cầu trên hào, đỡ bẫy nỏ bằng khiên, ra lối mòn ẩn; Chuông ở trên cây cầu phía đông.
   - **Cổng, Chân và Tầng 6 Tháp Sát Khí Rừng Huyết Sắc**: chỉ tới được sau khi vào Hí Mộng Sơn Trang, lúc phía đông Rừng Huyết Sắc phủ tuyết và mặt hồ đóng băng. Từ Chuông Lối Vào Rừng Gương đi tây nam lên dốc, qua mặt hồ băng tới tháp. Trong tháp: rẽ trái lên Tầng 6 (có Quỷ Sai thân thiện), rẽ phải hoặc đi thang máy xuống Chân Tháp. Chìa Khóa Tháp Sát Khí và Hỗn Nguyên Thạch ở lò luyện cạnh Chân Tháp.
-  - **Đường Mòn Phục Kích**: chưa guide nào chỉ đường.
+  - **Đường Mòn Phục Kích**: chưa guide nào chỉ đường, nhưng vùng của nó đã mở cùng Chuông Xích Xà Ốc nên ko ảnh hưởng %.
+  - Theo `DT_BellData`: 3 vùng cuối của map 2 là `XSSL_015` (Cầu Vòm Ven Hồ), `XSSL_016` (Cổng và Chân Tháp Sát Khí), `XSSL_017` (Tầng 6). Giao Lộ và Tỉnh Mộng Chi Địa thuộc vùng `LJC_001` của Thôn Lục Gia. Thiếu 3 vùng này thì map 2 dừng ở khoảng 80%.
 - Chuông **Nơi Nuôi Dưỡng Thanh Đạo Phu** (map 1) nằm trong Hồng Trạch, chỗ đánh boss Hình Nhân Thanh Đạo Phu. Mở bằng Lưỡi Hình Nhân, lấy ở Ngục Tù Hình Nhân sau khi hạ Hoang Hành Tử trên Núi Gia Lung. Chuông này ko tính vào % map 1.
 - Mod **Map Tracker Plus** hiện vị trí đồ và Chuông, xem [pbz-mods-cai-dat.md](pbz-mods-cai-dat.md).
 
@@ -236,7 +237,7 @@ Mở bằng Tỳ Bà Huyễn Thuật ở Cửa Sương Mù Than Khóc. Lên núi
 - Đường chính: Hí Viện → lấy **Vé Xem Kịch** ở tế đài Diễn Võ Trường → Phủ Đệ Thánh Thể.
 - Boss: Hình Nhân Yển Nguyệt Đao Số 12 Ngọc Đỉnh, Xích Ảnh Cốt Nhận Tù Phong, Bảo Chủ Ám Ma Thiên Bảo Ma Uyên, **Lôi Đương** (rơi **Hổ Pháo**, bắn sập tường đá, kể cả bức tường ở map 1).
 - **Long Trụ thứ 5:** gần Đình Liễu Phong, móc từ hành lang bên phải. Phần thưởng: **Mặt Nạ Ám Ma Thiên Bảo**.
-- **Tam Diện Hỗn Độn:** nhặt 3 Hoa Ký Ức ở đây, Luyện Hồn **Hắc Thương Trường Kiếm** (*Sanguine Reach*) thành **Hỏa Nhận**. Sau đó dùng Hỏa Nhận làm vũ khí chính đánh lại **Ngọc Tông** ở Rừng Gương phủ tuyết, nhận **Hỗn Độn Thấu Cốt**.
+- **Tam Diện Hỗn Độn:** Nắm Lửa (để Luyện Hồn) ghép từ Nắm Lửa Đã Nguội (thắng Kim Diện ở Long Trụ giữa Hồ Mai Cốc) và Lửa Rực (boss Chúc Nguyên ở Tháp Sát Khí Bàng Trấn). Nhặt 3 Hoa Ký Ức ở đây, Luyện Hồn **Hắc Thương Trường Kiếm** (*Sanguine Reach*) thành **Hỏa Nhận**. Sau đó dùng Hỏa Nhận làm vũ khí chính đánh lại **Ngọc Tông** ở Rừng Gương phủ tuyết, nhận **Hỗn Độn Thấu Cốt**.
 - **Trương Diệu Thủ:** nộp bảo vật Hí Mộng Sơn Trang ở chỗ ẩn náu Đường Trúc Ảnh để nhận **Nguyệt Lôi Đăng**.
 
 ## 13. Map 9: Núi Đoạn Hồn (*Mount Soulrend*)
