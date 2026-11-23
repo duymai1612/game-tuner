@@ -24,6 +24,7 @@ Game ko có combo tự đánh tới khi cạn Sát Khí. Anh tự nối vòng nh
 
 Đồ hợp với vòng này:
 - **Ngọc Bội Chính Khí**: Liên Kích Sát Khí tốn ít hơn 15%.
+- **Độc Cô Tuyệt Ấn**: Liên Kích Sát Khí làm địch mất thêm 8% Sát Khí (mài +1 thì 15%).
 - **Huyền Âm Hộ Phù**: thanh Sát Khí dài thêm 15%.
 - **Ngưng Phong Đan**: 15 giây mọi đòn tốn ít Sát Khí hơn 30%, hồi dần 30% máu.
 - **Rượu Cất Sôi**: 15 giây Sát Khí tự sinh liên tục, hồi dần 30% máu.
@@ -69,6 +70,7 @@ Chảy máu và hút máu **ko ăn** lên địch là hình nhân, kim thân hay
 | Diệu Thủ Tại Ác / Thiên Quân / Liên Hoàn | +10% sát thương vũ khí một tay / hai tay / song đao |
 | Huyền Âm Hộ Phù | Sát Khí +15% |
 | Ngọc Bội Chính Khí | Liên Kích Sát Khí tốn ít hơn 15% |
+| Độc Cô Tuyệt Ấn | Liên Kích Sát Khí làm địch mất thêm 8% Sát Khí |
 | Nhẫn Thần Cơ | Giữ nút đỡ thì tốn ít Sát Khí hơn 20% |
 | Hộp Dược Hương | Bình thuốc hồi thêm 20% |
 
@@ -94,6 +96,8 @@ Bộ 6 ô gợi ý khi dùng Bạch Mãng: Hồn Nguyên Phù, Hộ Uyển Phả
 | Nâng thuốc | **Tạ Tiểu Nhung**, tiệm thuốc ở **Bàng Trấn** | Ký Ức Y Sư Tập Sự (lên cấp 2), Lành Nghề (cấp 2 lên 4), Đại Y Sư (tới max) |
 | Thêm ô phụ kiện | Menu luyện kỹ năng ở Chuông, kỹ năng **Hải Nạp Bách Xuyên** thức I tới IV | Dust, theo guide là 10.000 / 40.000 / 65.000 / 80.000. Từ 2 ô lên 6 ô. Có guide ghi thức II cần học một kỹ năng nhánh Sát Khí Hổ Phách trước |
 
+Đặt lại kỹ năng thì game tháo hết phụ kiện ở các ô vừa mất, học lại Hải Nạp Bách Xuyên rồi đeo lại.
+
 Các nhánh kỹ năng khác mở bằng Hắc Thạch, Hổ Phách Sát Khí, Hoa Ký Ức và Tim Đại Thụ.
 
 ## 4. Map 100%
@@ -106,6 +110,7 @@ Các nhánh kỹ năng khác mở bằng Hắc Thạch, Hổ Phách Sát Khí, H
   - **Cầu Vòm Ven Hồ**: cần Vũ Khí Phantom **Chuyết Bích Thuẫn** (rơi ở Thôn Lục Gia; một guide ghi thêm Liệt Diễm Sư Đầu). Từ Chuông Doanh Trại Phi Tặc vào hầm, qua cầu trên hào, đỡ bẫy nỏ bằng khiên, ra lối mòn ẩn; Chuông ở trên cây cầu phía đông.
   - **Cổng, Chân và Tầng 6 Tháp Sát Khí Rừng Huyết Sắc**: chỉ tới được sau khi vào Hí Mộng Sơn Trang, lúc phía đông Rừng Huyết Sắc phủ tuyết và mặt hồ đóng băng. Từ Chuông Lối Vào Rừng Gương đi tây nam lên dốc, qua mặt hồ băng tới tháp. Trong tháp: rẽ trái lên Tầng 6 (có Quỷ Sai thân thiện), rẽ phải hoặc đi thang máy xuống Chân Tháp. Chìa Khóa Tháp Sát Khí và Hỗn Nguyên Thạch ở lò luyện cạnh Chân Tháp.
   - **Đường Mòn Phục Kích**: chưa guide nào chỉ đường.
+- Chuông **Nơi Nuôi Dưỡng Thanh Đạo Phu** (map 1) nằm trong Hồng Trạch, chỗ đánh boss Hình Nhân Thanh Đạo Phu. Mở bằng Lưỡi Hình Nhân, lấy ở Ngục Tù Hình Nhân sau khi hạ Hoang Hành Tử trên Núi Gia Lung. Chuông này ko tính vào % map 1.
 - Mod **Map Tracker Plus** hiện vị trí đồ và Chuông, xem [pbz-mods-cai-dat.md](pbz-mods-cai-dat.md).
 
 ## 5. Map 2: Rừng Huyết Sắc
