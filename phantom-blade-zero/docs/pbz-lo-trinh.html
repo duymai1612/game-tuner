@@ -1,0 +1,397 @@
+<title>Lộ Trình Thôn Lục Gia</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Noto+Serif:wght@600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column; a status strip, then a numbered route (real sequence), then a no-return axis and the carry-over quests. Ink-on-jade-paper palette. */
+:root {
+  --bg: #eef2ef;
+  --panel: #f8faf8;
+  --ink: #1b2421;
+  --muted: #5a6762;
+  --line: #cdd8d2;
+  --jade: #1d6f5a;
+  --jade-soft: #d7ebe3;
+  --amber: #9a5b00;
+  --amber-soft: #f5e6cc;
+  --crimson: #a3242f;
+  --crimson-soft: #f4d9db;
+  --done: #4f6b60;
+  --done-soft: #e1e8e4;
+  --f-display: "Noto Serif", Georgia, "Times New Roman", serif;
+  --f-body: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111715; --panel: #18201d; --ink: #e3ebe7; --muted: #95a59f; --line: #2c3833;
+    --jade: #5cc3a2; --jade-soft: #173a30; --amber: #e3a646; --amber-soft: #3a2c14;
+    --crimson: #ee7a83; --crimson-soft: #3d1a1e; --done: #9db3aa; --done-soft: #222c28;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111715; --panel: #18201d; --ink: #e3ebe7; --muted: #95a59f; --line: #2c3833;
+  --jade: #5cc3a2; --jade-soft: #173a30; --amber: #e3a646; --amber-soft: #3a2c14;
+  --crimson: #ee7a83; --crimson-soft: #3d1a1e; --done: #9db3aa; --done-soft: #222c28;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px 56px;
+}
+.wrap { max-width: 860px; margin: 0 auto; display: grid; gap: 40px; }
+h1, h2 { font-family: var(--f-display); text-wrap: balance; margin: 0; line-height: 1.25; }
+h1 { font-size: clamp(1.7rem, 4vw, 2.3rem); }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1rem; margin: 0; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.lede { color: var(--muted); max-width: 65ch; }
+header { display: grid; gap: 10px; }
+.mono { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+
+/* status strip */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.stat { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: grid; gap: 2px; min-width: 0; }
+.stat .v { font-family: var(--f-mono); font-size: 1.15rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.stat .k { font-size: .8rem; color: var(--muted); }
+.stat.warn .v { color: var(--amber); }
+.stat.ok .v { color: var(--jade); }
+
+section { display: grid; gap: 16px; }
+.sec-head { display: grid; gap: 6px; }
+
+/* chips */
+.chip { display: inline-block; font-size: .72rem; font-weight: 600; letter-spacing: .03em; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.chip.now { background: var(--jade-soft); color: var(--jade); }
+.chip.opt { background: var(--done-soft); color: var(--done); }
+.chip.deadline { background: var(--crimson-soft); color: var(--crimson); }
+.chip.done { background: var(--done-soft); color: var(--done); text-decoration: line-through; }
+.chip.later { background: var(--amber-soft); color: var(--amber); }
+
+/* route */
+ol.route { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; counter-reset: step; }
+.step { display: grid; grid-template-columns: 44px 1fr; gap: 14px; position: relative; padding-bottom: 18px; }
+.step::before {
+  content: ""; position: absolute; left: 21px; top: 40px; bottom: 0; width: 2px; background: var(--line);
+}
+.step:last-child::before { display: none; }
+.num {
+  width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  font-family: var(--f-mono); font-weight: 600; background: var(--panel); border: 2px solid var(--jade); color: var(--jade);
+  position: relative; z-index: 1;
+}
+.step.danger .num { border-color: var(--crimson); color: var(--crimson); }
+.step.optional .num { border-color: var(--line); color: var(--muted); }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: grid; gap: 8px; min-width: 0; }
+.step.danger .card { border-color: var(--crimson); }
+.card-top { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; }
+.card-top label { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; flex: 1 1 260px; min-width: 0; }
+.card-top input { width: 18px; height: 18px; margin-top: 3px; accent-color: var(--jade); flex: none; }
+.card ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.where { font-size: .85rem; color: var(--muted); }
+.where b { color: var(--ink); font-weight: 600; }
+.step.checked .card { opacity: .55; }
+.step.checked h3 { text-decoration: line-through; }
+.src { font-size: .78rem; color: var(--muted); }
+.note { font-size: .85rem; color: var(--muted); font-style: italic; }
+
+/* axis */
+.axis-wrap { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px 12px 10px; }
+.axis { display: grid; grid-template-columns: repeat(5, minmax(140px, 1fr)); min-width: 720px; position: relative; }
+.axis::before { content: ""; position: absolute; left: 6%; right: 6%; top: 15px; height: 3px; background: var(--line); }
+.node { display: grid; justify-items: center; text-align: center; gap: 6px; padding: 0 6px; position: relative; }
+.dot { width: 32px; height: 32px; border-radius: 50%; background: var(--panel); border: 3px solid var(--jade); z-index: 1; display: grid; place-items: center; font-family: var(--f-mono); font-size: .75rem; font-weight: 600; color: var(--jade); }
+.node.here .dot { background: var(--jade); color: var(--panel); }
+.node.gate .dot { border-color: var(--crimson); color: var(--crimson); border-radius: 4px; transform: rotate(45deg); }
+.node.gate .dot span { transform: rotate(-45deg); }
+.node .t { font-weight: 600; font-size: .88rem; }
+.node .d { font-size: .78rem; color: var(--muted); }
+.node.gate .t { color: var(--crimson); }
+
+/* tables */
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: .9rem; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+tr:last-child td { border-bottom: 0; }
+td.n { font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.box { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: grid; gap: 6px; min-width: 0; }
+.box.ok h3 { color: var(--jade); }
+.box.later h3 { color: var(--amber); }
+.box ul { margin: 0; padding-left: 18px; display: grid; gap: 3px; }
+
+footer { font-size: .82rem; color: var(--muted); display: grid; gap: 6px; }
+footer ul { margin: 0; padding-left: 18px; }
+a { color: var(--jade); }
+a:focus-visible, input:focus-visible, button:focus-visible { outline: 2px solid var(--jade); outline-offset: 2px; }
+button.reset { justify-self: start; font: inherit; font-size: .82rem; background: none; border: 1px solid var(--line); color: var(--muted); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+@media (prefers-reduced-motion: no-preference) { .step .card { transition: opacity .2s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Phantom Blade Zero · Chương Làng Mất Tâm</span>
+    <h1>Lộ trình Thôn Lục Gia → Bàng Trấn</h1>
+    <p class="lede">Lấy từ save lúc <span class="mono">26/11 11:39</span>. Các bước xếp theo thứ tự nên làm. Tick vào ô khi xong, trình duyệt sẽ nhớ.</p>
+  </header>
+
+  <section aria-labelledby="s-now">
+    <div class="sec-head">
+      <span class="eyebrow">Tình trạng save</span>
+      <h2 id="s-now">Anh đang ở đâu</h2>
+    </div>
+    <div class="stats">
+      <div class="stat ok"><span class="v">5/5</span><span class="k">Lụa Mộc Tiểu Quỳ (Thiếu Chủ xong)</span></div>
+      <div class="stat ok"><span class="v">✓</span><span class="k">Ngọc Toản (Hình Nhân Nhạc Sư Số 3)</span></div>
+      <div class="stat"><span class="v">15/22</span><span class="k">Chuông Thôn Lục Gia</span></div>
+      <div class="stat warn"><span class="v">4/6</span><span class="k">Ô phụ kiện đang đeo</span></div>
+      <div class="stat"><span class="v">2/5</span><span class="k">Long Trụ</span></div>
+      <div class="stat"><span class="v">20/20 · 14/17</span><span class="k">Vùng map 1 · map 2</span></div>
+      <div class="stat"><span class="v">5,94 tr</span><span class="k">Bụi Tàn Dư</span></div>
+      <div class="stat"><span class="v">57</span><span class="k">Ngày còn lại</span></div>
+    </div>
+    <p class="where">Đã xong: Tất Viễn, Bích Hải, 3 chưởng môn yên nghỉ, Giết Sạch Không Tha (đã giao Niệm Châu và Bí Kíp Phi Tặc), Chuông Dưới Giếng, Bãi Thí Nghiệm Hình Nhân, Cổng Ngoài Doanh Trại Chính Đạo. Mới nhặt Vũ Khí Phantom <b>Tỳ Bà Thôi Tâm</b>, <b>Dây Đỏ Của Tiểu Thúy</b> và <b>Lục Lạc Chó Săn</b>.</p>
+  </section>
+
+  <section aria-labelledby="s-route">
+    <div class="sec-head">
+      <span class="eyebrow">Từng bước</span>
+      <h2 id="s-route">Làm theo thứ tự này</h2>
+    </div>
+    <ol class="route" id="route">
+      <li class="step" data-id="gear">
+        <div class="num">1</div>
+        <div class="card">
+          <div class="card-top">
+            <label><input type="checkbox" id="c-gear"><h3>Đeo đủ 6 phụ kiện</h3></label>
+            <span class="chip now">Làm ngay</span>
+          </div>
+          <ul>
+            <li>Còn trống 2 ô. Đeo <b>Niệm Châu Trầm Hương</b> (hồi phục nhanh hơn 15% sau khi bị phá thủ) và <b>Độc Cô Tuyệt Ấn</b> (Liên Kích Sát Khí hút Sát Khí của địch).</li>
+            <li>Đang đeo: Hồn Nguyên Phù, Vỏ Đao Thần Kỳ, Ngọc Bội Chính Khí, Hộ Uyển Phản Đòn.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="step optional" data-id="songstress">
+        <div class="num">2</div>
+        <div class="card">
+          <div class="card-top">
+            <label><input type="checkbox" id="c-songstress"><h3>Báo tin Bái Lang cho Hình Nhân Ca Nữ</h3></label>
+            <span class="chip opt">Ko mất</span>
+          </div>
+          <p class="where">Ở <b>Chuông Miếu Đom Đóm U Lam</b>. Nhiệm vụ <i>Trái Tim Hình Nhân Gỗ</i> đang ở bước cuối.</p>
+          <ul><li>Phần thưởng: phụ kiện <b>Trái Tim Hình Nhân Gỗ</b> (theo guide: vật triệu hồi tồn tại lâu hơn 25%).</li></ul>
+        </div>
+      </li>
+
+      <li class="step" data-id="yanru">
+        <div class="num">3</div>
+        <div class="card">
+          <div class="card-top">
+            <label><input type="checkbox" id="c-yanru"><h3>Hạ Diệt Pháp Sứ Viêm Như, lấy mặt nạ</h3></label>
+            <span class="chip later">Hạn: trước Hí Mộng Sơn Trang</span>
+          </div>
+          <p class="where">Chuông <b>Diệt Pháp Sứ</b> chưa rung. Guide ko chỉ đường cụ thể, anh bật mod <b>Map Tracker Plus</b> lên xem vị trí boss.</p>
+          <ul><li>Mặt nạ thứ 1/4 cho <i>Bí Mật Tại Hồ Tâm</i>. 3 cái còn lại: Lôi Đình (Bàng Trấn), Cổ Hạc (Hồ Mai Cốc), Hàn Tuế (Hồng Trạch).</li></ul>
+        </div>
+      </li>
+
+      <li class="step" data-id="dusk">
+        <div class="num">4</div>
+        <div class="card">
+          <div class="card-top">
+            <label><input type="checkbox" id="c-dusk"><h3>Vào nơi ẩn náu của Đãng Uế, hạ hắn</h3></label>
+            <span class="chip later">Hạn: trước Hí Mộng Sơn Trang</span>
+          </div>
+          <p class="where">Sổ nhiệm vụ <i>Bí Mật Tại Hồ Tâm</i> đang ghi "Vào nơi ẩn náu của Đãng Uế". Bước sau là "thăm dò hẻm núi".</p>
+          <ul><li>Rơi <b>Đầu Đàn</b>, phần 1/3 của Tỳ Bà Huyễn Thuật. Dây Đàn ở Hồ Mai Cốc, Lưng Đàn ở Doanh Trại Chính Đạo.</li></ul>
+        </div>
+      </li>
+
+      <li class="step optional" data-id="fog">
+        <div class="num">5</div>
+        <div class="card">
+          <div class="card-top">
+            <label><input type="checkbox" id="c-fog"><h3>Rung nốt các Chuông còn thiếu</h3></label>
+            <span class="chip opt">Để map 100%</span>
+          </div>
+          <ul>
+            <li><b>Miệng Hố</b> và <b>Đáy Hố Hình Nhân Tàn Thể</b></li>
+            <li><b>Quảng Trường Ruộng Bậc Thang Phía Dưới</b></li>
+            <li><b>Diệt Pháp Sứ</b> (bước 3), <b>Bờ Hồ</b> (bước 6), <b>Mật Đạo Đến Bàng Trấn</b> (bước 9)</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="step" data-id="mxk">
+        <div class="num">6</div>
+        <div class="card">
+          <div class="card-top">
+            <label><input type="checkbox" id="c-mxk"><h3>Hạ Mộc Tiểu Quỳ ở bãi lau sậy</h3></label>
+            <span class="chip now">Đủ 5/5 lụa rồi</span>
+          </div>
+          <ul>
+            <li>Từ khu Ngọc Toản (Bãi Thí Nghiệm Hình Nhân), đi <b>thang đá</b> lên <b>Chuông Bờ Hồ</b> (ko dịch chuyển tới Chuông này được). Men theo hồ khoảng 55 m, bước vào bãi lau sậy là vào trận.</li>
+            <li>Có đủ 5 lụa nên trận có <b>pha 3</b>: Ngọc Yêu và Thiết Quỷ ra cùng. Thắng thì được Vũ Khí Phantom <b>Yêu Cứ</b>.</li>
+            <li><b>Nhặt hết đồ trên bãi trước khi rời đi:</b> <b>Loạn Oanh Kiếm</b> và <b>Mắt Hình Nhân Số 44</b>.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="step" data-id="gate">
+        <div class="num">7</div>
+        <div class="card">
+          <div class="card-top">
+            <label><input type="checkbox" id="c-gate"><h3>Mở cổng đỏ bằng Mắt Hình Nhân Số 44</h3></label>
+            <span class="chip now">Thông Mật Đạo</span>
+          </div>
+          <p class="where">Cổng ở cạnh sân đấu Ngọc Toản, gần <b>Chuông Bãi Thí Nghiệm Hình Nhân</b>.</p>
+          <ul><li>Sau cổng có phi tặc bị nhốt trong cũi. Thả hắn ra để nhận <b>Chìa Khóa Hầm Rượu Thôn Lục Gia</b> (chỉ 1 guide ghi). Hầm rượu nhà họ Lục có rương.</li></ul>
+        </div>
+      </li>
+
+      <li class="step danger" data-id="report">
+        <div class="num">8</div>
+        <div class="card">
+          <div class="card-top">
+            <label><input type="checkbox" id="c-report"><h3>Quay lại báo cho Lan Thiếu Địch và Lão Căn Đầu</h3></label>
+            <span class="chip deadline">Bắt buộc trước Bàng Trấn</span>
+          </div>
+          <ul>
+            <li><b>Lan Thiếu Địch</b>, ở Chuông Nơi Ẩn Náu Của Lan Công Tử: báo mật đạo đã thông. Nhiệm vụ <i>Lan Gia Công Tử</i> đi tiếp ở Lan Phủ (Bàng Trấn).</li>
+            <li><b>Lão Căn Đầu</b>, ở Chuông Nơi Ẩn Náu Của Lão Căn Đầu: chọn <b>đồng ý ngay</b> để nhận <b>Chìa Khóa Đồng Thau</b>. Bỏ bước này là mất Vũ Khí Phantom <b>Chiến Xa</b>, Hoa Ký Ức và một thành tựu.</li>
+            <li>Tới Phố Sau Bàng Trấn trước khi báo thì nhiệm vụ hỏng luôn, quay lại cũng ko cứu được.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="step" data-id="cross">
+        <div class="num">9</div>
+        <div class="card">
+          <div class="card-top">
+            <label><input type="checkbox" id="c-cross"><h3>Qua mật đạo sang Bàng Trấn</h3></label>
+            <span class="chip opt">Sau bước 8</span>
+          </div>
+          <p class="where">Rung <b>Chuông Mật Đạo Đến Bàng Trấn</b>. Sang tới nơi thì nhắn em check save lại.</p>
+        </div>
+      </li>
+    </ol>
+    <button class="reset" type="button" id="reset">Bỏ tick tất cả</button>
+  </section>
+
+  <section aria-labelledby="s-axis">
+    <div class="sec-head">
+      <span class="eyebrow">Điểm ko quay lại</span>
+      <h2 id="s-axis">Mốc nào khoá việc gì</h2>
+    </div>
+    <div class="axis-wrap" role="img" aria-label="Trục điểm ko quay lại từ Thôn Lục Gia tới Hí Mộng Sơn Trang">
+      <div class="axis">
+        <div class="node here"><div class="dot">3</div><span class="t">Thôn Lục Gia</span><span class="d">Anh đang ở đây</span></div>
+        <div class="node gate"><div class="dot"><span>!</span></div><span class="t">Cổng sang Bàng Trấn</span><span class="d">Khoá: báo Lan Thiếu Địch, Lão Căn Đầu</span></div>
+        <div class="node"><div class="dot">4–7</div><span class="t">Bàng Trấn, Hồ Mai Cốc, Doanh Trại, Núi Gia Lung</span><span class="d">Đi lại tự do</span></div>
+        <div class="node gate"><div class="dot"><span>!</span></div><span class="t">Cầu cuối Thanh Xà Ốc</span><span class="d">Khoá: 10 nhiệm vụ tím, Long Trụ, Hồ Tâm</span></div>
+        <div class="node"><div class="dot">8</div><span class="t">Hí Mộng Sơn Trang</span><span class="d">Backup save trước khi qua</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="s-back">
+    <div class="sec-head">
+      <span class="eyebrow">Map 1 và 2</span>
+      <h2 id="s-back">Có cần quay lại ko</h2>
+    </div>
+    <div class="two">
+      <div class="box ok">
+        <h3>Bây giờ: ko cần</h3>
+        <ul>
+          <li>Map 1 đã mở 20/20 vùng. Các nhiệm vụ map 1 còn lại đều làm tiếp ở map sau.</li>
+          <li>Map 2 đã xong hết các việc phải làm trước Bạch Xích Luyện.</li>
+          <li>NPC ở Dịch Trạm biến mất là cốt truyện cố định, anh ko mất gì.</li>
+        </ul>
+      </div>
+      <div class="box later">
+        <h3>Sau này: một chuyến về map 2</h3>
+        <ul>
+          <li><b>Cầu Vòm Ven Hồ</b>: lấy lúc nào cũng được vì anh đã có Chuyết Bích Thuẫn. Từ Chuông Doanh Trại Phi Tặc chui xuống hầm, dùng khiên đỡ bẫy nỏ.</li>
+          <li><b>Tháp Sát Khí</b> (Cổng, Chân Tháp, Tầng 6): chỉ vào được sau khi tới Hí Mộng Sơn Trang. Trong tháp có Hỗn Nguyên Thạch cho Quỷ Sai thân thiện.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="s-carry">
+    <div class="sec-head">
+      <span class="eyebrow">Đã nhận, làm ở map sau</span>
+      <h2 id="s-carry">Nhiệm vụ đang mở</h2>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Nhiệm vụ</th><th>Tiến độ</th><th>Làm tiếp ở đâu</th><th>Hạn</th></tr></thead>
+        <tbody>
+          <tr><td>Huyết Nhục Hoa</td><td class="n">bước 3</td><td>Bàng Trấn: hạ Trường Hồng, đưa hoa thứ hai cho cha Ngọc Nhi</td><td></td></tr>
+          <tr><td>Tứ Hung Phủ</td><td class="n">bước 2</td><td>Đủ 7 cuốn thì đưa Bát Quái Đồng Tử (Bàng Trấn), được Dao Kết Nghĩa Kim Lan</td><td></td></tr>
+          <tr><td>Côn Luân Tam Kiệt</td><td class="n">mở</td><td>Ngụy Tam Thuyền (Bàng Trấn), rồi vào Doanh Trại Chính Đạo</td><td><span class="chip later">Tím</span></td></tr>
+          <tr><td>Tỳ Bà Huyễn Thuật</td><td class="n">0/3 phần</td><td>Đầu Đàn (Đãng Uế), Dây Đàn (Hồ Mai Cốc), Lưng Đàn (Doanh Trại)</td><td><span class="chip later">Tím</span></td></tr>
+          <tr><td>Bí Mật Tại Hồ Tâm</td><td class="n">0/4 mặt nạ</td><td>Viêm Như, Lôi Đình, Cổ Hạc, Hàn Tuế, 2 mắt pha lê</td><td><span class="chip deadline">Trước Hí Mộng</span></td></tr>
+          <tr><td>Mộng Sai Huyễn Cảnh</td><td class="n">1/3 cổng</td><td>Mở đủ 3 cổng</td><td><span class="chip later">Tím</span></td></tr>
+          <tr><td>Thức Tỉnh Huyết Mạch</td><td class="n">2/5 Long Trụ</td><td>Doanh Trại Chính Đạo, giữa Hồ Mai Cốc, Vách Đoạn Hồn</td><td><span class="chip deadline">Trước Thanh Xà Ốc</span></td></tr>
+          <tr><td>Tiểu Thúy</td><td class="n">có Dây Đỏ</td><td>Núi Gia Lung: lấy Vô Căn Tiên Lộ trước khi thả Lục Tam Thiên. Thưởng: Hoàng Tâm Thô Sơ</td><td></td></tr>
+          <tr><td>Đại Hoàng</td><td class="n">có Lục Lạc</td><td>Tìm chó săn, đi tiếp ở Bàng Trấn (guide chưa ghi chỗ)</td><td></td></tr>
+          <tr><td>Đoạn Tuyệt Khắc Tâm</td><td class="n">1/3 đá</td><td>Hỗn Nguyên Thạch ở Bàng Trấn, rồi Tháp Sát Khí map 2</td><td></td></tr>
+          <tr><td>Tiếng Khóc Nơi Đâu</td><td class="n">bước 3</td><td>Từ Đường trên Núi Gia Lung</td><td><span class="chip later">Tím</span></td></tr>
+          <tr><td>Hồng Trạch</td><td class="n">mở</td><td>Lưỡi Kẻ Câm, lấy sau khi hạ Hoang Hành Tử</td><td><span class="chip later">Tím</span></td></tr>
+          <tr><td>Tam Diện Hỗn Độn</td><td class="n">mở</td><td>Cần Hỏa Nhận (Nắm Lửa), Ngọc Tông ở Rừng Gương</td><td></td></tr>
+          <tr><td>Trái Tim Đại Thụ</td><td class="n">1/5</td><td>Mỗi map một cây</td><td></td></tr>
+          <tr><td>Thỏ Khôn Còn Có Ba Hang</td><td class="n">1/5</td><td>Mỗi map một chỗ ẩn náu của Trương Diệu Thủ</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">"Tím" là nhiệm vụ màu tím, cần cho true ending và phải xong trước Hí Mộng Sơn Trang.</p>
+  </section>
+
+  <footer>
+    <span class="eyebrow">Nguồn</span>
+    <p>Tiến độ lấy từ save (đọc bằng <span class="mono">pbz_save_tool.py</span>), tên tiếng Việt lấy từ file ngôn ngữ của game. Chỉ dẫn đường đi lấy từ các guide sau, chưa kiểm chứng trong game:</p>
+    <ul>
+      <li><a href="https://www.gamerfuzion.com/phantom-blade-zero-missable-quests-before-pangzhen-village-of-lu-checklist/" target="_blank" rel="noopener">GamerFuzion: Village of Lu checklist</a></li>
+      <li><a href="https://allthings.how/?p=318207" target="_blank" rel="noopener">allthings.how: Lakeside, Yuzan, Smuggler's Tunnel</a></li>
+      <li><a href="https://allthings.how/?p=318136" target="_blank" rel="noopener">allthings.how: Beneath the Well</a></li>
+      <li><a href="https://www.keengamer.com/articles/guides/phantom-blade-zero-all-33-tales-and-side-quests-walkthrough/" target="_blank" rel="noopener">KeenGamer: all 33 tales</a></li>
+      <li><a href="https://github.com/duymai1612/game-tuner/blob/main/phantom-blade-zero/docs/pbz-cheatsheet.md" target="_blank" rel="noopener">Cheatsheet đầy đủ trong repo game-tuner</a></li>
+    </ul>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var KEY = 'pbz-lo-trinh-v1';
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { state = {}; }
+  var steps = document.querySelectorAll('#route .step');
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+  steps.forEach(function (li) {
+    var id = li.getAttribute('data-id');
+    var box = li.querySelector('input[type=checkbox]');
+    box.checked = !!state[id];
+    li.classList.toggle('checked', box.checked);
+    box.addEventListener('change', function () {
+      state[id] = box.checked;
+      li.classList.toggle('checked', box.checked);
+      save();
+    });
+  });
+  document.getElementById('reset').addEventListener('click', function () {
+    state = {};
+    save();
+    steps.forEach(function (li) { li.querySelector('input').checked = false; li.classList.remove('checked'); });
+  });
+})();
+</script>

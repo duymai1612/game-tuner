@@ -6,6 +6,8 @@ Mod: danh sách, thứ tự cài và cách gỡ ở [docs/pbz-mods-cai-dat.md](d
 
 Cheatsheet (cơ chế Sát Khí/Phá Thủ, đồ nên dùng, chỗ nâng cấp, map 100%, mốc dễ lỡ từng map, thứ tự map, kết thúc) ở [docs/pbz-cheatsheet.md](docs/pbz-cheatsheet.md). Tra thêm được gì mới thì cập nhật vào đó.
 
+Lộ trình từng bước theo save hiện tại ở [docs/pbz-lo-trinh.html](docs/pbz-lo-trinh.html), bản xem trên claude.ai: https://claude.ai/artifact/1afTJKMVk2z6rGTCvUXbav. Check save xong thì sửa file này rồi publish lại vào cùng link (Artifact tool, cùng `file_path` hoặc truyền `url`).
+
 ## Luật
 - Chỉ sửa slot mà Continue load (`__Advanced__.LastContinueSlot`); tool mặc định làm vậy, `list` đánh dấu slot đó.
 - Anh chỉ muốn bỏ phần cày: Dust và nguyên liệu nâng cấp. Ko tự ý thêm vũ khí chưa nhặt, mở skill, sửa cờ boss/quest hay `RemainingDays`; muốn sửa mấy thứ đó thì hỏi trước.

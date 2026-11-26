@@ -1,6 +1,6 @@
 # Phantom Blade Zero: cheatsheet
 
-Gom những gì em đã tra cho anh từ 2026-11-12 tới 2026-11-22: cơ chế đánh, đồ nên dùng, chỗ nâng cấp, cách mở map 100%, và mốc dễ lỡ của từng map từ map 2 tới map cuối. Tên lấy từ bản tiếng Việt của game (build 26367565), tên tiếng Anh để trong ngoặc. Chỗ nào chỉ có một guide nói thì em ghi rõ là chưa chắc.
+Gom những gì em đã tra cho anh từ 2026-11-12 tới 2026-11-26: cơ chế đánh, đồ nên dùng, chỗ nâng cấp, cách mở map 100%, và mốc dễ lỡ của từng map từ map 2 tới map cuối. Tên lấy từ bản tiếng Việt của game (build 26367565), tên tiếng Anh để trong ngoặc. Chỗ nào chỉ có một guide nói thì em ghi rõ là chưa chắc.
 
 Checklist map 1 nằm riêng ở [pbz-map-1-weeping-creek-valley-missables.md](pbz-map-1-weeping-creek-valley-missables.md).
 
@@ -155,6 +155,16 @@ Các map theo file game: Thung Lũng Than Khóc → Rừng Huyết Sắc → **T
 
 Chương *Làng Mất Tâm*. **Điểm ko quay lại:** đi thang nâng sau cổng Mật Đạo Phi Tặc là sang Bàng Trấn. Nhiệm vụ đã hỏng thì ko cứu được.
 
+Lộ trình từng bước, có ô tick: [pbz-lo-trinh.html](pbz-lo-trinh.html). Bản xem trên claude.ai (private, chỉ chủ repo mở được): https://claude.ai/artifact/1afTJKMVk2z6rGTCvUXbav
+
+**Đường đi chính** (theo allthings.how và GamerFuzion):
+1. Giúp 3 chưởng môn yên nghỉ (Tất Viễn, Bích Hải, Hoa Thiên Tiếu). Xong thì chỉ đỏ quấn quanh **giếng cạnh Chuông Giếng Ba Hình Nhân** tan đi.
+2. Leo lên thành giếng rồi nhảy xuống. Đi theo lối ván về phía ánh đỏ khoảng 30 m là tới Chuông **Dưới Giếng**. Đi tiếp qua các hang đèn lồng đỏ là tới **Bãi Thí Nghiệm Hình Nhân**, nơi đánh boss Ngọc Toản.
+3. Cạnh sân đấu Ngọc Toản có **cổng đỏ** dẫn sang Bàng Trấn, nhưng Hình Nhân Số 44 gác cổng còn thiếu mắt.
+4. Từ khu Ngọc Toản đi thang đá lên Chuông **Bờ Hồ** (Chuông này ko dịch chuyển tới được). Men theo hồ khoảng 55 m, bước vào bãi lau sậy là vào trận **Mộc Tiểu Quỳ**. Mắt của Hình Nhân Số 44 rơi từ trận này.
+5. Mở cổng đỏ. Sau cổng có phi tặc bị nhốt trong cũi, thả hắn ra để nhận Chìa Khóa Hầm Rượu Thôn Lục Gia (chỉ 1 guide ghi).
+6. Quay lại báo cho Lan Thiếu Địch và Lão Căn Đầu, rồi mới qua mật đạo.
+
 1. **Đường Về** (Lão Căn Đầu):
    - Thông mật đạo xong thì tới Chuông Nơi Ẩn Náu Của Lão Căn Đầu, chọn **đồng ý ngay**, nhận Chìa Khóa Đồng Thau Của Lão Căn Đầu.
    - Hạn: tới Phố Sau Bàng Trấn mà nhiệm vụ còn ở bước 1 là mất. Có guide ghi là phải nhận trước khi vào Bàng Trấn.
@@ -164,7 +174,11 @@ Chương *Làng Mất Tâm*. **Điểm ko quay lại:** đi thang nâng sau cổ
    - Lấy di vật của **Tuệ Giác** (Chùa Khổ Diệp) ở Dịch Trạm Thung Lũng Than Khóc, đưa cho nhà sư đồng môn ở Thôn Lục Gia.
    - Lấy di vật của phi tặc (Bí Kíp Phi Tặc) ở Doanh Trại Rừng Huyết Sắc, đưa cho **Phi Tặc Bị Thương** **trước khi vào Mật Đạo Phi Tặc**, ko thì ông ta chết.
    - Hạn theo một guide: **xuống giếng ở cổng làng**.
-4. **Tăng Nhân Ngồi Ngay Ngắn** ở Tiểu Viện Người Sống Sót: chọn **ko tin** để nhận **Niệm Châu Trầm Hương**. Chọn "tin" là ông ta chết luôn.
+4. **Tăng Nhân Ngồi Ngay Ngắn**, sư huynh của Tuệ Giác:
+   - Ngồi cầu kinh dưới cây cổ thụ to, ngay sau Chuông Tiểu Viện Người Sống Sót. Chuông nằm dưới một cây chết, sau cổng gỗ hai cánh.
+   - Chọn **"Di vật của Tuệ Giác"** hoặc **"Không tin tưởng"** để nhận phụ kiện **Niệm Châu Trầm Hương** (hồi phục nhanh hơn 15% sau khi bị phá thủ).
+   - Chọn "Tin tưởng" là ông ta chết luôn, ko có lần thứ 2.
+   - Nhiệm vụ còn cho thêm Vũ Khí Phantom **Niệm Châu Chùa Khổ Diệp**.
 5. **5 dải lụa của Mộc Tiểu Quỳ** (*Thiếu Chủ*):
    - Gom đủ 5 dải trước khi đi thang máy xuống chỗ cô ta: Chuông Giếng Ba Hình Nhân, Miếu Đom Đóm U Lam, lương đình gần Cầu Có Mái, chỗ Tất Viễn, Dưới Giếng.
    - Đủ 5 dải thì trận boss có thêm pha 3, rơi Vũ Khí Phantom **Yêu Cứ** (*Fiend Saws*).
@@ -173,6 +187,12 @@ Chương *Làng Mất Tâm*. **Điểm ko quay lại:** đi thang nâng sau cổ
    - Lấy **Vô Căn Tiên Lộ** (Đài Chỉ Huy, Núi Gia Lung) trước khi thả **Lục Tam Thiên**.
    - Lấy dải lụa của Tiểu Thúy từ ông ta trước Chuông Từ Đường Thánh Mẫu Nương Nương.
    - Phần thưởng: **Hoàng Tâm Thô Sơ**.
+   - Dây Đỏ Của Tiểu Thúy nhận ngay ở Thôn Lục Gia, sau trận Ngọc Toản. Save cho thấy món này vào túi trước cả Núi Gia Lung.
+8. **Trái Tim Hình Nhân Gỗ**:
+   - Đưa thư của Hình Nhân Ca Nữ cho Bái Lang và tìm thân xác Bái Lang.
+   - Rồi về Miếu Đom Đóm U Lam báo tin cho Hình Nhân Ca Nữ.
+   - Phần thưởng là phụ kiện cùng tên.
+9. **Đại Hoàng**: nói chuyện với người thợ săn đeo mặt nạ hoa đang ngủ, trong căn nhà gần Tiểu Viện Người Sống Sót. Anh ta đưa Lục Lạc Chó Săn và nhờ tìm con chó. Nhiệm vụ đi tiếp ở Bàng Trấn, guide chưa ghi chỗ con chó.
 
 Boss: Tất Viễn (Phái Thiên Huyền), **Đãng Uế** (rơi Đầu Đàn Tỳ Bà), Hình Nhân Nhạc Sư Số 3 Ngọc Toản (rơi tỳ bà), Diệt Pháp Sứ Viêm Như (rơi mặt nạ, cần cho *Bí Mật Tại Hồ Tâm*), Mộc Tiểu Quỳ.
 
