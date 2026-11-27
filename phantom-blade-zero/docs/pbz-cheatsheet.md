@@ -198,6 +198,8 @@ Boss: Tất Viễn (Phái Thiên Huyền), **Đãng Uế** (rơi Đầu Đàn T�
 
 Đường tới Viêm Như: từ Chuông Tàn Tích Cơ Quan Cự Quái, đi xuống cái ao cạn dưới Ruộng Bậc Thang. Tìm hình nhân áo đỏ dán bùa trước ngực, dang tay, đứng dưới cây to treo đèn lồng đỏ (ko phải con cạnh hàng rào). Dọn hết lính quanh đó rồi bấm E để vào trận.
 
+**Nơi Ẩn Náu Của Trương Diệu Thủ (Thôn Lục Gia)** (`Bell_LJC_XiaoZhang_002`, nhiệm vụ *Thỏ Khôn Còn Có Ba Hang*): theo toạ độ trong `DT_BellData`, nó cách Chuông Cầu Có Mái khoảng 35 m và Chuông Hắc Xà Ốc khoảng 23 m, thấp hơn mặt cầu. Lối vào ở dưới Cầu Có Mái, sát mép suối, có khung gỗ. Có guide chỉ một lối khác: nhà dây đỏ ở phía bắc Giếng Ba Hình Nhân, leo thang xuống suối, vào hang rồi dùng Xích Liềm đu lên. Tới được chỗ này thì nhiệm vụ *Lời Nhờ Cậy Của Diệu Thủ* (gom Bảo Vật Thất Lạc ở Thôn Lục Gia) mới đi tiếp.
+
 Chuông Thôn Lục Gia: bảng `DT_BellData` trong file game có 18 Chuông (17 cái `Bell_SXC_*` và Cổng Ngoài Doanh Trại Chính Đạo). *Diệt Pháp Sứ*, *Quảng Trường Ruộng Bậc Thang Phía Dưới* và *Bờ Hồ* chỉ có tên trong file ngôn ngữ, ko có trong bảng. Hai cái đầu nhiều khả năng bị cắt, ko cần tìm. Bờ Hồ có ngoài map nhưng ko dịch chuyển tới được.
 
 ## 8. Map 4: Bàng Trấn (*Pangzhen*)
