@@ -196,6 +196,8 @@ Lộ trình từng bước, có ô tick: [pbz-lo-trinh.html](pbz-lo-trinh.html).
 
 Boss: Tất Viễn (Phái Thiên Huyền), **Đãng Uế** (rơi Đầu Đàn Tỳ Bà), Hình Nhân Nhạc Sư Số 3 Ngọc Toản (rơi tỳ bà), Diệt Pháp Sứ Viêm Như (rơi mặt nạ, cần cho *Bí Mật Tại Hồ Tâm*), Mộc Tiểu Quỳ.
 
+Viêm Như ko có Chuông ngoài map. Chuông *Diệt Pháp Sứ* (The Acolytes) nằm trong khu boss. Từ Chuông Tàn Tích Cơ Quan Cự Quái, đi xuống cái ao cạn dưới Ruộng Bậc Thang. Tìm hình nhân áo đỏ dán bùa trước ngực, dang tay, đứng dưới cây to treo đèn lồng đỏ (ko phải con cạnh hàng rào). Dọn hết lính quanh đó rồi bấm E để vào trận.
+
 ## 8. Map 4: Bàng Trấn (*Pangzhen*)
 
 Chương *Tử Trấn*, *Tung Tích Trái Tim*, *Tứ Đại Xà Ốc*.
